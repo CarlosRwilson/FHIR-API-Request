@@ -1,0 +1,21 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=77.0.3"
+]
+[project]
+authors = [
+    { email = "wilsoncarlosraul@gmail.com", name = "Carlos Wilson"},
+]
+
+license = "MIT"
+description = "Patient Data FHIR Test Server extraction and visualization"
+
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "psycopg2-binary>=2.9.12",
+    "pandas>=3.0.4",
+    "dotenv>=0.9.9"
+
+]

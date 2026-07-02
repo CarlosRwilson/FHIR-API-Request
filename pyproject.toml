@@ -16,6 +16,7 @@ dependencies = [
     "requests>=2.34.2",
     "psycopg2-binary>=2.9.12",
     "pandas>=3.0.4",
-    "dotenv>=0.9.9"
+    "dotenv>=0.9.9",
+    "playwright>=1.61.0"
 
 ]

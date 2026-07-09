@@ -9,3 +9,4 @@ build/
 dist/
 *.egg-info/
 *_data.json
+*.json

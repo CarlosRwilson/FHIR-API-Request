@@ -1,9 +1,7 @@
 import requests
-import os
 import json
 from playwright.sync_api import sync_playwright
-import traceback, sys
-
+from app.functions import save_json
 
 def get_resource_names(BASE_URL:str) -> list[str]:
     
@@ -16,7 +14,6 @@ def get_resource_names(BASE_URL:str) -> list[str]:
             .....
         ]
     """
-
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
@@ -37,9 +34,6 @@ def get_resource_names(BASE_URL:str) -> list[str]:
         browser.close()
         return page_names
 
-
-
-
 def data_request(BASE_URL:str, resource:str) -> dict | None:
     """
     Downloads all Observation resources.
@@ -54,16 +48,7 @@ def data_request(BASE_URL:str, resource:str) -> dict | None:
     except requests.RequestException as e:
         print('ERROR', e)
         return None
-
-
-
-
-def save_json(data:dict, filename:str) -> None:
-    output_path = os.path.join(os.path.dirname(__file__), filename)
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=4)
     
-
 BASE_URL = "https://hapi.fhir.org/baseR4" 
 
 def main():
@@ -73,9 +58,6 @@ def main():
 
         if data is not None:
             save_json(data, f'{resource}_data.json') 
-main()
 
-
-
-
-
+if __name__ == '__main__':
+    main()

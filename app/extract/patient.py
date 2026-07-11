@@ -1,11 +1,10 @@
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
 
-from app.functions import open_file, save_json
+from app.functions import first_or_empty, open_file, save_json
 
 def extract_pacients(json_file: str) -> None:
 
@@ -14,19 +13,24 @@ def extract_pacients(json_file: str) -> None:
     pacients = []
     
     for item in entry:
+        full_url = item.get('fullUrl', '')
         resource = item.get('resource', {})
 
         if not resource:
             continue
+
+        meta = resource.get('meta', {})
+        last_updated = meta.get('lastUpdated', '')
         names = resource.get('name', [])
-        first_name_dict = names[0] if names else {}
+        first_name_dict = first_or_empty(names)
+
         family_name = first_name_dict.get('family', '')
         given_names = first_name_dict.get('given', [])
 
         adresses = resource.get('address', [])
-        first_adress = adresses[0] if adresses else {}
+        first_adress = first_or_empty(adresses)
+        line = first_adress.get('line', [])
         city = first_adress.get('city', '')
-        line = first_adress.get('line'[0], {})
         district = first_adress.get('district', '')
         postal_code = first_adress.get('postalCode', '')
         country = first_adress.get('country', '')
@@ -34,7 +38,7 @@ def extract_pacients(json_file: str) -> None:
 
         personal_info = {
             'ID': resource.get('id', ''),
-            'FullUrl': resource.get('fullUrl', ''),
+            'FullUrl': full_url,
             'Name': given_names,
             'Last Name': family_name,
             'Gender': resource.get('gender', ''),
@@ -44,13 +48,13 @@ def extract_pacients(json_file: str) -> None:
             'Postal Code': postal_code,
             'Country': country,
             'State': state,
-            'Telecom': resource.get('telecom',[])
+            'Telecom': resource.get('telecom',[]),
+            'Birthdate': resource.get('birthDate', ''),
+            'Last Updated': last_updated
 
         }
         pacients.append(personal_info)
 
-    save_json(pacients, 'Pacients.json')
-    
-
-extract_pacients('Patient_data.json')
-
+    save_json(pacients, 'patients.json')
+if __name__ == '__main__':    
+    extract_pacients('Patient_data.json')

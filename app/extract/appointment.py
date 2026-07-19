@@ -34,10 +34,10 @@ def extract_appointment(json_file: str) -> None:
         appointment_info = {
             'FullUrl': full_url,
             'ID': id,
+            'Last Updated': last_updated,
+            'Status': status,
             'Participants': participants,
             'Service Type': service_type,
-            'Status': status,
-            'Last Updated': last_updated
         }
         appointment_data.append(appointment_info)
     save_json(appointment_data, 'appointment.json')

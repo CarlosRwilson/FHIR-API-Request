@@ -4,7 +4,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2] 
 sys.path.insert(0, str(ROOT))
 
-from app.functions import first_or_empty, open_file, extract_display, save_json
+from app.functions import first_or_empty, open_file, extract_display
+from app.functions import save_json, get_resource, extract_common_fields
 
 def extract_allergies(json_file: str) -> None:
     
@@ -16,40 +17,32 @@ def extract_allergies(json_file: str) -> None:
     
     for item in entry:
 
-        full_url = item.get('fullUrl', '') 
-        resource = item.get('resource',{})
+        resource = get_resource(item)
+        common = extract_common_fields(item)
         
         if not resource:
             continue
 
-        date = resource.get('meta', {})
-        last_updated = date.get('lastUpdated', '') 
-        
         reference = resource.get('patient', {})
         patient = reference.get('reference', '')
 
         recorder = resource.get('recorder', {})
         practitioner = recorder.get('reference', '')
 
-        code = resource.get('code', {})
-        first_coding = first_or_empty(code.get('coding', []))
-        allergy = first_coding.get('display', '') 
-
+        allergy = extract_display(resource.get('code', {}))
         category = first_or_empty(resource.get('category', []))
 
         reaction = extract_display(resource.get('reaction', []))
 
-        personal_info = {
-            'ID': resource.get('id', ''),
-            'FullUrl': full_url,
+        allergie_info = {
+            **common,
             'Patient': patient,
             'Practitioner': practitioner,
             'Allergy': allergy,
             'Reaction': reaction ,
-            'Category': category,
-            'Last Updated': last_updated
-        }
-        allergies.append(personal_info)
+            'Category': category
+            }
+        allergies.append(allergie_info)
     save_json(allergies, 'allergie_intolerance.json')
 if __name__ == '__main__':
     extract_allergies('AllergyIntolerance_data.json')

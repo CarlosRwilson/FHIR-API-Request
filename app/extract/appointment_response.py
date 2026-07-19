@@ -4,7 +4,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
-from app.functions import first_or_empty, open_file, save_json
+from app.functions import open_file, save_json
+from app.functions import extract_common_fields, extract_participants, get_resource
 
 def extract_appointment_response(json_file:str) -> None:
 
@@ -14,38 +15,24 @@ def extract_appointment_response(json_file:str) -> None:
     appointment_data = []
 
     for item in entry:
-        full_url = item.get('fullUrl', '')
-        resource = item.get('resource', {})
-        if not resource:
-            continue
-        id = resource.get('id', '')
-        date = resource.get('meta', {})
-        last_updated = date.get('lastUpdated', '')
+       common = extract_common_fields(item)
+       resource = get_resource(item)
+  
+       
+       appointment = resource.get('appointment', {})
+       appointment_val = appointment.get('reference', '')
 
-        identifier = resource.get('identifier', [])
-        first_identifier = first_or_empty(identifier)
-        identifier_val = first_identifier.get('value', '')
-
-        appointment = resource.get('appointment', {})
-        appointment_val = appointment.get('reference', '')
-
-        actor = resource.get('actor', {})
-        patient = actor.get('reference', '')
-
-        participant_status = resource.get('participantStatus', '')
-        comment = resource.get('comment', '')
-
-        appointment_response = {
-            'FullUrl': full_url,
-            "ID": id, 
-            'Identifier': identifier_val, 
+       patient = extract_participants(resource.get('participant', []))
+       participant_status = resource.get('participantStatus', '')
+       comment = resource.get('comment', '')   
+       appointment_response = {
+           **common,
             'Appointment': appointment_val,
             'Patient': patient,
             'Paticipant Status': participant_status,
-            'Comment': comment
-
+            'Comment': comment   
         }
-        appointment_data.append(appointment_response)
+       appointment_data.append(appointment_response)
     save_json(appointment_data, 'appointment_response.json')
 
 if __name__ == '__main__':

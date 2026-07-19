@@ -59,17 +59,125 @@ def extract_display(obj: dict | list) -> list[str]:
         for item in obj:
             displays.extend(extract_display(item))
     
+
+
+
+
+
+
     return displays
 
-def extract_participants(obj: list[dict]) -> list[str]:
+def extract_participants(obj: list[dict] | dict) -> list[str]:
     participants = []
-    
-    for participant in obj:
-        actor = participant.get('actor',{})
-        
-        if isinstance(actor, dict):
-            reference = actor.get('reference', '')
-            if reference:
-                participants.append(reference)
+
+    if isinstance(obj, dict):
+        participant_items = obj.get('participant', [])
+    else:
+        participant_items = obj
+
+    if not isinstance(participant_items, list):
+        return participants
+
+    for participant in participant_items:
+        if not isinstance(participant, dict):
+            continue
+
+        if 'actor' in participant:
+            actor = participant.get('actor', {})
+
+            if isinstance(actor, dict):
+                reference = actor.get('reference', '') or actor.get('display', '')
+                if reference:
+                    participants.append(reference)
+
+        elif 'member' in participant:
+            member = participant.get('member', {})
+            if isinstance(member, dict):
+                display = member.get('display', '') or member.get('reference', '')
+                if display:
+                    participants.append(display)
+
+
 
     return participants
+
+def extract_activity(obj:list[dict]) -> list[dict]:
+    detail_dict = []
+
+    for item in obj:
+        detail = item.get('detail', {})
+        if detail:
+            detail_dict.append(detail)
+
+    return detail_dict
+
+def extract_personal_info(item: dict) -> dict:
+        resource = item.get('resource', {})
+        
+        identifier = resource.get('identifier', [])
+        first_identifier = first_or_empty(identifier)
+        value = first_identifier.get('value', '') 
+
+        names = resource.get('name', [])
+        first_name_dict = first_or_empty(names)
+
+        family_name = first_name_dict.get('family', '')
+        given_names = first_name_dict.get('given', [])
+
+        adresses = resource.get('address', [])
+        first_adress = first_or_empty(adresses)
+        line = first_adress.get('line', [])
+
+        city = first_adress.get('city', '')
+        district = first_adress.get('district', '')
+        postal_code = first_adress.get('postalCode', '')
+        
+        country = first_adress.get('country', '')
+        state = first_adress.get('state', '')
+        telecom = resource.get('telecom', [])
+        birth_date = resource.get('birthDate', '')
+
+        gender = resource.get('gender', '')
+
+
+        personal_info = {
+            'Identifier': value ,
+            'Name': given_names,
+            'Last Name': family_name,
+            'Gender': gender,
+            'Line': line,
+            'City': city,
+            'District': district,
+            'Postal Code': postal_code,
+            'Country': country,
+            'State': state,
+            'Telecom': telecom,
+            'Birthdate': birth_date
+            }
+        
+        return personal_info
+
+
+def get_resource(item: dict) -> dict:
+    resource = item.get('resource', {})
+
+    return resource if resource else {}
+
+def extract_common_fields(item: dict) -> dict:
+    """
+     Extract common FHIR fields.
+
+    Returns:
+        resource: The resource dictionary.
+        common: Dictionary containing common 
+    """
+    resource = item.get('resource', {})
+
+    common = {
+        'FullUrl': item.get('fullUrl', ''),
+        'ID': resource.get('id', ''),
+        'Last Updated': resource.get('meta', {}).get('lastUpdated', ''),
+        'Status': resource.get('status', '')
+    } 
+
+    return common

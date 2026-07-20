@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2] 
 sys.path.insert(0, str(ROOT))
 
-from app.functions import first_or_empty, open_file, extract_display
+from app.functions import first_or_empty, open_file, extract_nested_display
 from app.functions import save_json, get_resource, extract_common_fields
 
 def extract_allergies(json_file: str) -> None:
@@ -29,11 +29,17 @@ def extract_allergies(json_file: str) -> None:
         recorder = resource.get('recorder', {})
         practitioner = recorder.get('reference', '')
 
-        allergy = extract_display(resource.get('code', {}))
+        allergy = extract_nested_display(resource.get('code', {}))
         category = first_or_empty(resource.get('category', []))
 
-        reaction = extract_display(resource.get('reaction', []))
-
+        reaction = extract_nested_display(resource.get('reaction', []))
+        
+        """
+        ** -> Dictionary unpacking operator
+              takes all the key-value pairs from 
+              one dictionary and inserts them into another dictionary.
+        """
+        
         allergie_info = {
             **common,
             'Patient': patient,
@@ -42,7 +48,10 @@ def extract_allergies(json_file: str) -> None:
             'Reaction': reaction ,
             'Category': category
             }
+        
         allergies.append(allergie_info)
+
     save_json(allergies, 'allergie_intolerance.json')
+
 if __name__ == '__main__':
     extract_allergies('AllergyIntolerance_data.json')

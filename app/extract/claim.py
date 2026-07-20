@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from app.functions import save_json, open_file, extract_display, first_or_empty
+from app.functions import get_resource, extract_common_fields
 
 def extract_claim(json_file: str) -> None:
     data = open_file(json_file)
@@ -13,18 +14,13 @@ def extract_claim(json_file: str) -> None:
     claim_data = []
 
     for item in entry:
-        full_url = item.get('fullUrl', '')
-        resource = item.get('resource', {})
+        resource = get_resource(item)
+        common = extract_common_fields(item)
 
         if not resource:
             continue
-        id = resource.get('id', '')
-        date = resource.get('meta', {})
-        last_updated = date.get('lastUpdated', '')
-
-        status = resource.get('status', '')
+        
         type = extract_display(resource.get('type', {}))
-
         use = resource.get('use', '')
 
         patient = resource.get('patient', {})
@@ -55,10 +51,7 @@ def extract_claim(json_file: str) -> None:
         net = first_item.get('net', {})
 
         claim = {
-            'fullUrl': full_url,
-            'ID': id,
-            'Last Updated': last_updated,
-            'Status': status,
+            **common,
             'Serviced Period': serviced_period,
             'Type':type,
             'Use':use,
@@ -74,7 +67,10 @@ def extract_claim(json_file: str) -> None:
             'Location Concept': location_display,
             'Net': net
         }
+
         claim_data.append(claim)
+
     save_json(claim_data, 'claim.json')
+    
 if __name__ == '__main__':
-    print(extract_claim('Claim_data.json'))
+    extract_claim('Claim_data.json')

@@ -13,17 +13,17 @@ def extract_practitioners(json_file: str) -> None:
     practitioners = []
     
     for item in entry:
+        
         common = extract_common_fields(item)
         practitioner_info = extract_personal_info(item)
 
-        """
-        Dictionary unpacking operator **
-        """
         personal_info = {
             **common, 
             **practitioner_info
         }
+
         practitioners.append(personal_info)
+    
     save_json(practitioners, 'practitioner.json')
 
 if __name__ =='__main__':

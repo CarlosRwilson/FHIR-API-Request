@@ -12,6 +12,7 @@ JSON_FOLDER = Path(__file__).resolve().parent
 
 
 def open_file(json_file: str | Path) -> dict:
+    
     complete_path = JSON_FOLDER / json_file
     
     """
@@ -28,63 +29,54 @@ def open_file(json_file: str | Path) -> dict:
 
 
 def save_json(data: dict | list, filename: str) -> None:
+    
     output_path = os.path.join(os.path.dirname(__file__), filename)
+    
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
 
 
 def first_or_empty(items: dict | list) -> dict:
+    
     return items[0] if items else {}
 
-def extract_display(obj: dict | list) -> list[str]:
+def extract_nested_display(obj: dict | list) -> list[str]:
 
     displays = []
 
     if isinstance(obj, dict):
+
         """
         Found a coding list
         """
+        
         if 'coding' in obj:
             for coding in obj['coding']:
-                display = coding.get('display')
+                display = coding.get('display', '') or coding.get('code', '')
                 if display:
                     displays.append(display)
+        
         """
         Continue searching deeper
         """    
+        
         for value in obj.values():
-            displays.extend(extract_display(value))
+            displays.extend(extract_nested_display(value))
     
     elif isinstance(obj, list):
         for item in obj:
-            displays.extend(extract_display(item))
-    
-
-
-
-
-
+            displays.extend(extract_nested_display(item))
 
     return displays
 
-def extract_participants(obj: list[dict] | dict) -> list[str]:
+def extract_participants(obj: list[dict]) -> list[str]:
+    
     participants = []
-
-    if isinstance(obj, dict):
-        participant_items = obj.get('participant', [])
-    else:
-        participant_items = obj
-
-    if not isinstance(participant_items, list):
-        return participants
-
-    for participant in participant_items:
-        if not isinstance(participant, dict):
-            continue
-
-        if 'actor' in participant:
-            actor = participant.get('actor', {})
-
+    
+    for participant in obj:
+        if 'actor' in participant :
+            actor = participant.get('actor',{})
+        
             if isinstance(actor, dict):
                 reference = actor.get('reference', '') or actor.get('display', '')
                 if reference:
@@ -99,19 +91,14 @@ def extract_participants(obj: list[dict] | dict) -> list[str]:
 
 
 
+
+
+
+
     return participants
 
-def extract_activity(obj:list[dict]) -> list[dict]:
-    detail_dict = []
-
-    for item in obj:
-        detail = item.get('detail', {})
-        if detail:
-            detail_dict.append(detail)
-
-    return detail_dict
-
 def extract_personal_info(item: dict) -> dict:
+        
         resource = item.get('resource', {})
         
         identifier = resource.get('identifier', [])
@@ -159,11 +146,13 @@ def extract_personal_info(item: dict) -> dict:
 
 
 def get_resource(item: dict) -> dict:
+   
     resource = item.get('resource', {})
 
     return resource if resource else {}
 
 def extract_common_fields(item: dict) -> dict:
+   
     """
      Extract common FHIR fields.
 
@@ -171,6 +160,7 @@ def extract_common_fields(item: dict) -> dict:
         resource: The resource dictionary.
         common: Dictionary containing common 
     """
+   
     resource = item.get('resource', {})
 
     common = {
@@ -181,3 +171,15 @@ def extract_common_fields(item: dict) -> dict:
     } 
 
     return common
+
+def extract_display(obj: dict) -> str:
+
+    """
+    Extract a str from a single dictionary
+    Returns
+    display or reference
+    """
+
+    result = obj.get('display', '') or obj.get('reference', '')
+
+    return result

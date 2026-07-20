@@ -17,15 +17,14 @@ def extract_pacients(json_file: str) -> None:
         common = extract_common_fields(item)
         patient_info = extract_personal_info(item)
 
-        """
-        Dictionary unpacking operator **
-        """
         personal_info = {
             **common, 
             **patient_info
         }
+
         patients.append(personal_info)
 
     save_json(patients, 'patient.json')
-if __name__ == '__main__':    
+
+if __name__ == '__main__':
     extract_pacients('Patient_data.json')

@@ -20,6 +20,7 @@ def extract_benefit(json_file: str) -> None:
 
         if not resource:
             continue
+        
         type = extract_nested_display(resource.get('type', []))
         use = resource.get('use', '')
 

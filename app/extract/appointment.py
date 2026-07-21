@@ -28,13 +28,13 @@ def extract_appointment(json_file: str) -> None:
 
         service_type = extract_nested_display(resource.get('serviceType', []))
 
-        appointment_info = {
+        appointment_dict = {
             **common,
             'Participants': participants,
             'Service Type': service_type,
         }
 
-        appointment_data.append(appointment_info)
+        appointment_data.append(appointment_dict)
     
     save_json(appointment_data, 'appointment.json')
 

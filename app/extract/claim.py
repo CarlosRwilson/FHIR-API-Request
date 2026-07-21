@@ -50,7 +50,7 @@ def extract_claim(json_file: str) -> None:
 
         net = first_item.get('net', {})
 
-        claim = {
+        claim_dict = {
             **common,
             'Serviced Period': serviced_period,
             'Type':type,
@@ -68,7 +68,7 @@ def extract_claim(json_file: str) -> None:
             'Net': net
         }
 
-        claim_data.append(claim)
+        claim_data.append(claim_dict)
 
     save_json(claim_data, 'claim.json')
     

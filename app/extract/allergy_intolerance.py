@@ -40,7 +40,7 @@ def extract_allergies(json_file: str) -> None:
               one dictionary and inserts them into another dictionary.
         """
         
-        allergie_info = {
+        allergie_dict = {
             **common,
             'Patient': patient,
             'Practitioner': practitioner,
@@ -49,7 +49,7 @@ def extract_allergies(json_file: str) -> None:
             'Category': category
             }
         
-        allergies.append(allergie_info)
+        allergies.append(allergie_dict)
 
     save_json(allergies, 'allergie_intolerance.json')
 

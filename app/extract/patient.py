@@ -17,12 +17,12 @@ def extract_pacients(json_file: str) -> None:
         common = extract_common_fields(item)
         patient_info = extract_personal_info(item)
 
-        personal_info = {
+        patient_dict = {
             **common, 
             **patient_info
         }
 
-        patients.append(personal_info)
+        patients.append(patient_dict)
 
     save_json(patients, 'patient.json')
 

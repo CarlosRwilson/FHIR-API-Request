@@ -31,14 +31,14 @@ def extract_flag(json_file: str) -> None:
         subject = resource.get('subject', {})
         patient = subject.get('reference', '') or subject.get('display', '')
 
-        flag_info = {
+        flag_dict = {
             **common,
             'Category': category_val,
             'Code': code_val,
             'Patient': patient
         }
 
-        flags.append(flag_info)
+        flags.append(flag_dict)
     save_json(flags, 'flag.json')
 
 

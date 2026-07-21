@@ -32,7 +32,7 @@ def extract_care_team(json_file: str) -> None:
         first_organization = first_or_empty(organization)
         organization_display = first_organization.get('display', '') 
 
-        care_team = {
+        care_team_dict = {
             **common,
             'Period': period,
             'Participants': participants,
@@ -41,7 +41,7 @@ def extract_care_team(json_file: str) -> None:
             'Organization': organization_display
         }
 
-        care_team_data.append(care_team)
+        care_team_data.append(care_team_dict)
     
     save_json(care_team_data, 'care_team.json')
 

@@ -36,7 +36,7 @@ def extract_healthcare_service(json_file: str) -> None:
 
         type = extract_nested_display(resource.get('type', []))
 
-        healthcare = {
+        healthcare_dict = {
             **common,
             'Extension': extension,
             'Active': active,
@@ -47,7 +47,7 @@ def extract_healthcare_service(json_file: str) -> None:
             'Type': type
         }
 
-        healthcare_data.append(healthcare)
+        healthcare_data.append(healthcare_dict)
 
     save_json(healthcare_data, 'healthcare_service.json')
     

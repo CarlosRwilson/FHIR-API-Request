@@ -32,7 +32,7 @@ def extract_appointment_response(json_file:str) -> None:
        participant_status = resource.get('participantStatus', '')
        comment = resource.get('comment', '')   
        
-       appointment_response = {
+       appointment_response_dict = {
            **common,
             'Appointment': appointment_val,
             'Patient': patient,
@@ -40,7 +40,7 @@ def extract_appointment_response(json_file:str) -> None:
             'Comment': comment   
         }
        
-       appointment_data.append(appointment_response)
+       appointment_data.append(appointment_response_dict)
     
     save_json(appointment_data, 'appointment_response.json')
 

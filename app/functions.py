@@ -1,6 +1,5 @@
 import json
 import os
-import sys
 from pathlib import Path
 
 """
@@ -35,6 +34,10 @@ def save_json(data: dict | list, filename: str) -> None:
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
 
+"""
+Extraction functions
+...
+"""
 
 def first_or_empty(items: dict | list) -> dict:
     
@@ -107,7 +110,6 @@ def extract_personal_info(item: dict) -> dict:
 
         names = resource.get('name', [])
         first_name_dict = first_or_empty(names)
-
         family_name = first_name_dict.get('family', '')
         given_names = first_name_dict.get('given', [])
 
@@ -129,7 +131,7 @@ def extract_personal_info(item: dict) -> dict:
 
         personal_info = {
             'Identifier': value ,
-            'Name': given_names,
+            'Name': given_names or names,
             'Last Name': family_name,
             'Gender': gender,
             'Line': line,
@@ -154,10 +156,10 @@ def get_resource(item: dict) -> dict:
 def extract_common_fields(item: dict) -> dict:
    
     """
-     Extract common FHIR fields.
+     Extract common FHIR fields
 
     Returns:
-        resource: The resource dictionary.
+        resource: The resource dictionary
         common: Dictionary containing common 
     """
    
@@ -183,3 +185,41 @@ def extract_display(obj: dict) -> str:
     result = obj.get('display', '') or obj.get('reference', '')
 
     return result
+
+def extract_location_info(item: dict) -> dict:
+    """
+    Extract location FHIR file information
+    """
+    resource = item.get('resource', {})
+        
+    identifier = resource.get('identifier', [])
+    first_identifier = first_or_empty(identifier)
+    value = first_identifier.get('value', '') 
+    
+    name = resource.get('name','')
+
+    adresses = resource.get('address', {})
+    line = adresses.get('line', [])
+
+    city = adresses.get('city', '')
+    district = adresses.get('district', '')
+    postal_code = adresses.get('postalCode', '')
+     
+    country = adresses.get('country', '')
+    state = adresses.get('state', '')
+    telecom = resource.get('telecom', [])
+
+    info = {
+            'Identifier': value ,
+            'Name': name,
+            'Line': line,
+            'City': city,
+            'District': district,
+            'Postal Code': postal_code,
+            'Country': country,
+            'State': state,
+            'Telecom': telecom
+
+            }
+        
+    return info

@@ -39,7 +39,7 @@ def extract_claim_response(json_file: str) -> None:
 
         process_note = resource.get('processNote', [])
 
-        claim_response = {
+        claim_response_dict = {
             **common,
             'Type': type,
             'use': use,
@@ -55,7 +55,7 @@ def extract_claim_response(json_file: str) -> None:
             'Process Note': process_note
         }
 
-        responses.append(claim_response)
+        responses.append(claim_response_dict)
     save_json(responses, 'claim_response.json')
 
 if __name__ == '__main__':

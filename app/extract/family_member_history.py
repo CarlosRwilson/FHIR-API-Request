@@ -40,7 +40,7 @@ def extract_family_members(json_file: str) -> None:
         onset_age = first_condition.get('onsetAge', {})
         age_value = onset_age.get('value', '')
 
-        members = {
+        members_dict = {
             **common,
             'Patient': patient,
             'Date': date,
@@ -52,7 +52,7 @@ def extract_family_members(json_file: str) -> None:
             'Onset Age': age_value
         }
 
-        family_members.append(members)
+        family_members.append(members_dict)
         
     save_json(family_members,'family_member_history.json' )
 if __name__ == '__main__':

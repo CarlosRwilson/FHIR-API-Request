@@ -33,7 +33,7 @@ def extract_care_plan(json_file: str) -> None:
 
         category = extract_nested_display(resource.get('category', []))
 
-        care_plan = {
+        care_plan_dict = {
             **common,
             'Period': period,
             'Intent': intent,
@@ -43,7 +43,7 @@ def extract_care_plan(json_file: str) -> None:
             'Category': category,
         }
 
-        care_plans.append(care_plan)
+        care_plans.append(care_plan_dict)
 
     save_json(care_plans, 'care_plan.json')
 

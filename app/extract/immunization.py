@@ -43,7 +43,7 @@ def extract_immunization(json_file: str) -> None:
         protocol = first_or_empty(resource.get('protocolApplied', []))
         protocol_applied = protocol.get('series', '')
 
-        immunization_info = {
+        immunization_dict = {
             **common,
             'Vaccine Code': vaccine_text,
             'Patient': patient,
@@ -58,10 +58,9 @@ def extract_immunization(json_file: str) -> None:
             'Protocol Applied': protocol_applied
 
         }
-        immunization_data.append(immunization_info)
+        immunization_data.append(immunization_dict)
 
     save_json(immunization_data, 'immunization.json')
 
 if __name__ == '__main__':
     extract_immunization('Immunization_data.json')
-

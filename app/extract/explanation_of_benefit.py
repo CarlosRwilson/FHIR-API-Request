@@ -41,7 +41,7 @@ def extract_benefit(json_file: str) -> None:
 
         total = first_or_empty(resource.get('total', []))
 
-        benefit_info = {
+        benefit_dict = {
             **common,
             'Type': type,
             'use': use,
@@ -57,7 +57,7 @@ def extract_benefit(json_file: str) -> None:
             
         }
 
-        benefits.append(benefit_info)
+        benefits.append(benefit_dict)
     
     save_json(benefits, 'explanation_of_benefit.json')
 

@@ -41,7 +41,7 @@ def extract_condition(json_file: str) -> None:
 
         note = first_or_empty(resource.get('note', []))
         
-        condition_info = {
+        condition_dict = {
             **common,
             'Clinical Status': clinical_status,
             'Verification Status': verification_status,
@@ -54,7 +54,7 @@ def extract_condition(json_file: str) -> None:
             'Practitioner': practitioner,
             'Note': note
         }
-        condition_data.append(condition_info)
+        condition_data.append(condition_dict)
     save_json(condition_data, 'condition.json')
 
 if __name__ == '__main__':

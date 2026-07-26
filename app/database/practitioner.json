@@ -1,0 +1,485 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/user-8638878e-6550-4687-b3be-315bc5e6f296",
+        "ID": "user-8638878e-6550-4687-b3be-315bc5e6f296",
+        "Last Updated": "2026-02-10T08:16:51.282+00:00",
+        "Status": "",
+        "Identifier": "8638878e-6550-4687-b3be-315bc5e6f296",
+        "Name": [
+            "Shivani"
+        ],
+        "Last Name": "Dhannaram",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "email",
+                "value": "dhannaram_shivani@optum.com"
+            }
+        ],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/user-82f66f52-14d0-4339-84f1-82b9e5682aa1",
+        "ID": "user-82f66f52-14d0-4339-84f1-82b9e5682aa1",
+        "Last Updated": "2026-02-10T08:16:51.282+00:00",
+        "Status": "",
+        "Identifier": "82f66f52-14d0-4339-84f1-82b9e5682aa1",
+        "Name": [
+            "Kamlesh"
+        ],
+        "Last Name": "Gorasiya",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "email",
+                "value": "kamlesh_gorasiya@optum.com"
+            }
+        ],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/AtEmedExamplePractitioner01",
+        "ID": "AtEmedExamplePractitioner01",
+        "Last Updated": "2026-02-10T08:57:29.799+00:00",
+        "Status": "",
+        "Identifier": "urn:oid:1.2.40.0.34.99.4613.4",
+        "Name": [
+            "Melanie"
+        ],
+        "Last Name": "Muster\u00e4rztin",
+        "Gender": "female",
+        "Line": [
+            "Mozartgasse 8 Stiege 2"
+        ],
+        "City": "St. Wolfgang",
+        "District": "",
+        "Postal Code": "5350",
+        "Country": "AUT",
+        "State": "Salzburg",
+        "Telecom": [
+            {
+                "system": "email",
+                "value": "office@musterpraxis.at",
+                "use": "work"
+            },
+            {
+                "system": "phone",
+                "value": "+436500987654321",
+                "use": "work"
+            }
+        ],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/ailovdisyb3",
+        "ID": "ailovdisyb3",
+        "Last Updated": "2026-02-10T10:36:46.346+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Eric"
+        ],
+        "Last Name": "van den broek",
+        "Gender": "male",
+        "Line": [
+            "Galapagosweg 91"
+        ],
+        "City": "Den Burg",
+        "District": "",
+        "Postal Code": "9105 PZ",
+        "Country": "NLD",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "0205568263",
+                "use": "work"
+            },
+            {
+                "system": "email",
+                "value": "E.M.vandenbroek@bmc.nl",
+                "use": "work"
+            },
+            {
+                "system": "fax",
+                "value": "0205664440",
+                "use": "work"
+            }
+        ],
+        "Birthdate": "1975-12-07"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/practitioner-pcp-1",
+        "ID": "practitioner-pcp-1",
+        "Last Updated": "2026-02-10T11:37:27.303+00:00",
+        "Status": "",
+        "Identifier": "1234567890_Sarkar",
+        "Name": [
+            "Sarah"
+        ],
+        "Last Name": "Adams",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/103346185",
+        "ID": "103346185",
+        "Last Updated": "2026-02-10T13:48:03.543+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Erik"
+        ],
+        "Last Name": "Example",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/103346397",
+        "ID": "103346397",
+        "Last Updated": "2026-02-10T13:48:04.452+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Peter"
+        ],
+        "Last Name": "Example",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/cfsb1758022625835",
+        "ID": "cfsb1758022625835",
+        "Last Updated": "2026-02-10T13:53:21.221+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "",
+        "Last Name": "",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/105794622",
+        "ID": "105794622",
+        "Last Updated": "2026-02-10T17:48:14.484+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Diego"
+        ],
+        "Last Name": "Rodr\u00edguez",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/105794623",
+        "ID": "105794623",
+        "Last Updated": "2026-02-10T17:48:14.484+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Mariana"
+        ],
+        "Last Name": "Gonz\u00e1lez",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/105794624",
+        "ID": "105794624",
+        "Last Updated": "2026-02-10T17:48:14.484+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Pablo"
+        ],
+        "Last Name": "Su\u00e1rez",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/dr-perez",
+        "ID": "dr-perez",
+        "Last Updated": "2026-02-10T17:48:43.631+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Juan"
+        ],
+        "Last Name": "P\u00e9rez",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/dr-gomez",
+        "ID": "dr-gomez",
+        "Last Updated": "2026-02-10T17:48:47.569+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Mar\u00eda"
+        ],
+        "Last Name": "G\u00f3mez",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/dr-martinez",
+        "ID": "dr-martinez",
+        "Last Updated": "2026-02-10T17:48:51.629+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Luis"
+        ],
+        "Last Name": "Mart\u00ednez",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/dr-mccoy",
+        "ID": "dr-mccoy",
+        "Last Updated": "2026-02-10T21:34:49.394+00:00",
+        "Status": "",
+        "Identifier": "SLC492-302MD",
+        "Name": [
+            "Leonard",
+            "H"
+        ],
+        "Last Name": "McCoy",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "url",
+                "value": "https://startrek.com"
+            }
+        ],
+        "Birthdate": "2227-01-20"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/nr-chapel",
+        "ID": "nr-chapel",
+        "Last Updated": "2026-02-10T21:34:50.396+00:00",
+        "Status": "",
+        "Identifier": "NI-596 MT21Z",
+        "Name": [
+            "Christine"
+        ],
+        "Last Name": "Chapel",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "url",
+                "value": "https://startrek.com"
+            }
+        ],
+        "Birthdate": "2237-02-23"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/109488333",
+        "ID": "109488333",
+        "Last Updated": "2026-02-10T23:15:47.170+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Sarah"
+        ],
+        "Last Name": "Test",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "555-0100",
+                "use": "work"
+            },
+            {
+                "system": "email",
+                "value": "dr.test@ozyops-demo.com",
+                "use": "work"
+            }
+        ],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/lalo3",
+        "ID": "lalo3",
+        "Last Updated": "2026-02-11T20:37:04.647+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Eric"
+        ],
+        "Last Name": "van den broek",
+        "Gender": "male",
+        "Line": [
+            "Galapagosweg 91"
+        ],
+        "City": "Den Burg",
+        "District": "",
+        "Postal Code": "9105 PZ",
+        "Country": "NLD",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "0205568263",
+                "use": "work"
+            },
+            {
+                "system": "email",
+                "value": "E.M.vandenbroek@bmc.nl",
+                "use": "work"
+            },
+            {
+                "system": "fax",
+                "value": "0205664440",
+                "use": "work"
+            }
+        ],
+        "Birthdate": "1975-12-07"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/123836454",
+        "ID": "123836454",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            {
+                "text": "Mary Smith"
+            }
+        ],
+        "Last Name": "",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Practitioner/123836455",
+        "ID": "123836455",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            {
+                "text": "Joseph Jones"
+            }
+        ],
+        "Last Name": "",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    }
+]

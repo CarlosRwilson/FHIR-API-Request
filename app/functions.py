@@ -108,7 +108,7 @@ def extract_personal_info(item: dict) -> dict:
         first_identifier = first_or_empty(identifier)
         value = first_identifier.get('value', '') 
 
-        names = resource.get('name', [])
+        names = resource.get('name', []) or resource.get('name', '')
         first_name_dict = first_or_empty(names)
         family_name = first_name_dict.get('family', '')
         given_names = first_name_dict.get('given', [])
@@ -174,52 +174,73 @@ def extract_common_fields(item: dict) -> dict:
 
     return common
 
-def extract_display(obj: dict) -> str:
+def extract_display(obj: dict ) -> str:
 
     """
     Extract a str from a single dictionary
     Returns
     display or reference
     """
-
+    
     result = obj.get('display', '') or obj.get('reference', '')
 
     return result
 
 def extract_location_info(item: dict) -> dict:
+
     """
     Extract location FHIR file information
     """
-    resource = item.get('resource', {})
-        
-    identifier = resource.get('identifier', [])
-    first_identifier = first_or_empty(identifier)
-    value = first_identifier.get('value', '') 
     
-    name = resource.get('name','')
+    resource = item.get("resource", {})
 
-    adresses = resource.get('address', {})
-    line = adresses.get('line', [])
+    identifier = first_or_empty(resource.get("identifier", []))
+    value = identifier.get("value", "")
 
-    city = adresses.get('city', '')
-    district = adresses.get('district', '')
-    postal_code = adresses.get('postalCode', '')
-     
-    country = adresses.get('country', '')
-    state = adresses.get('state', '')
-    telecom = resource.get('telecom', [])
+    name = resource.get("name", "")
 
-    info = {
-            'Identifier': value ,
-            'Name': name,
-            'Line': line,
-            'City': city,
-            'District': district,
-            'Postal Code': postal_code,
-            'Country': country,
-            'State': state,
-            'Telecom': telecom
+    address = resource.get("address", {})
 
-            }
-        
-    return info
+   
+    if isinstance(address, list):
+        address = first_or_empty(address)
+
+    telecom = resource.get("telecom", [])
+
+    return {
+        "Identifier": value,
+        "Name": name,
+        "Line": address.get("line", []),
+        "City": address.get("city", ""),
+        "District": address.get("district", ""),
+        "Postal Code": address.get("postalCode", ""),
+        "Country": address.get("country", ""),
+        "State": address.get("state", ""),
+        "Telecom": telecom,
+    }
+
+def extract_reference_range(obj: list[dict]) -> dict:
+    
+    """
+    Extract high and low reference ranges from Observation.referenceRange.
+    """
+
+    reference = first_or_empty(obj)
+
+    high = reference.get("high", {})
+    low = reference.get("low", {})
+
+    return {'Reference_range':{
+        "High": f"{high.get('value', '')} {high.get('code', '')}".strip(),
+        "Low": f"{low.get('value', '')} {low.get('code', '')}".strip(),
+    }}
+
+"""
+Parse functions
+"""
+def parse_quantity(quantity: dict) -> str:
+    
+    if not quantity:
+        return ""
+
+    return f"{quantity.get('value', '')} {quantity.get('code', '')}".strip()

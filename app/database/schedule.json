@@ -1,0 +1,262 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/109642262",
+        "ID": "109642262",
+        "Last Updated": "2026-02-10T23:28:16.688+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/109488333"
+        ],
+        "Planning Horizon Start": "2026-02-11T16:00:00Z",
+        "Planning Horizon End": "2026-02-12T01:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/113746862",
+        "ID": "113746862",
+        "Last Updated": "2026-02-11T05:14:24.599+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/109488333"
+        ],
+        "Planning Horizon Start": "2026-02-12T16:00:00Z",
+        "Planning Horizon End": "2026-02-13T01:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/114157963",
+        "ID": "114157963",
+        "Last Updated": "2026-02-11T05:55:38.799+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/109488333"
+        ],
+        "Planning Horizon Start": "2026-02-12T16:00:00Z",
+        "Planning Horizon End": "2026-02-15T01:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131273154",
+        "ID": "131273154",
+        "Last Updated": "2026-02-15T22:42:43.723+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131273153"
+        ],
+        "Planning Horizon Start": "2026-02-16T17:00:00Z",
+        "Planning Horizon End": "2026-02-19T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/109488532",
+        "ID": "109488532",
+        "Last Updated": "2026-02-16T16:53:28.923+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/109488333"
+        ],
+        "Planning Horizon Start": "2026-02-11T08:00:00Z",
+        "Planning Horizon End": "2026-02-23T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131273608",
+        "ID": "131273608",
+        "Last Updated": "2026-02-16T18:53:01.403+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/109488333"
+        ],
+        "Planning Horizon Start": "2026-02-17T17:00:00Z",
+        "Planning Horizon End": "2026-02-20T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131273789",
+        "ID": "131273789",
+        "Last Updated": "2026-02-16T20:39:50.989+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131273153"
+        ],
+        "Planning Horizon Start": "2026-02-17T17:00:00Z",
+        "Planning Horizon End": "2026-02-20T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131273853",
+        "ID": "131273853",
+        "Last Updated": "2026-02-16T23:04:45.935+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131273153"
+        ],
+        "Planning Horizon Start": "2026-02-17T17:00:00Z",
+        "Planning Horizon End": "2026-02-24T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/104596574",
+        "ID": "104596574",
+        "Last Updated": "2026-02-17T11:23:01.352+00:00",
+        "Status": "",
+        "Active": "",
+        "Actor": [
+            "Practitioner/103346185"
+        ],
+        "Planning Horizon Start": "2026-02-01T00:00:00Z",
+        "Planning Horizon End": "2026-03-30T00:00:00Z",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/104750409",
+        "ID": "104750409",
+        "Last Updated": "2026-02-17T11:39:16.821+00:00",
+        "Status": "",
+        "Active": "",
+        "Actor": [
+            "Practitioner/103346397"
+        ],
+        "Planning Horizon Start": "2026-02-01T00:00:00Z",
+        "Planning Horizon End": "2026-03-30T00:00:00Z",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131275875",
+        "ID": "131275875",
+        "Last Updated": "2026-02-17T17:38:06.194+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131275874"
+        ],
+        "Planning Horizon Start": "2026-02-18T17:00:00Z",
+        "Planning Horizon End": "2026-02-25T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131276816",
+        "ID": "131276816",
+        "Last Updated": "2026-02-18T22:52:18.527+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131275874"
+        ],
+        "Planning Horizon Start": "2026-02-19T17:00:00Z",
+        "Planning Horizon End": "2026-02-26T00:00:00Z",
+        "Comment": "OzyOps test schedule for FHIR booking demo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/sched-hs-pediatria-2025-02",
+        "ID": "sched-hs-pediatria-2025-02",
+        "Last Updated": "2026-02-21T02:05:35.876+00:00",
+        "Status": "",
+        "Active": "",
+        "Actor": [
+            "HealthcareService/hs-pediatria-norte"
+        ],
+        "Planning Horizon Start": "2025-02-01T00:00:00-05:00",
+        "Planning Horizon End": "2025-02-28T23:59:59-05:00",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/sched-pr-casas-2025-02",
+        "ID": "sched-pr-casas-2025-02",
+        "Last Updated": "2026-02-21T02:05:36.877+00:00",
+        "Status": "",
+        "Active": "",
+        "Actor": [
+            "PractitionerRole/pr-casas-pediatria-norte"
+        ],
+        "Planning Horizon Start": "2025-02-01T00:00:00-05:00",
+        "Planning Horizon End": "2025-02-28T23:59:59-05:00",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131281042",
+        "ID": "131281042",
+        "Last Updated": "2026-02-21T09:57:57.493+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131281041"
+        ],
+        "Planning Horizon Start": "2026-02-22T09:57:58.090Z",
+        "Planning Horizon End": "2026-02-28T09:57:58.091Z",
+        "Comment": "Dr. Johnson - General Practice Hours"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131281113",
+        "ID": "131281113",
+        "Last Updated": "2026-02-21T11:09:10.479+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131281110"
+        ],
+        "Planning Horizon Start": "2026-02-22T11:09:11.086Z",
+        "Planning Horizon End": "2026-02-28T11:09:11.089Z",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131281114",
+        "ID": "131281114",
+        "Last Updated": "2026-02-21T11:09:11.478+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131281111"
+        ],
+        "Planning Horizon Start": "2026-02-22T11:09:11.086Z",
+        "Planning Horizon End": "2026-02-28T11:09:11.089Z",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131281126",
+        "ID": "131281126",
+        "Last Updated": "2026-02-21T11:09:45.010+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131281123"
+        ],
+        "Planning Horizon Start": "2026-02-22T11:09:45.661Z",
+        "Planning Horizon End": "2026-02-28T11:09:45.665Z",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131281127",
+        "ID": "131281127",
+        "Last Updated": "2026-02-21T11:09:46.010+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131281124"
+        ],
+        "Planning Horizon Start": "2026-02-22T11:09:45.661Z",
+        "Planning Horizon End": "2026-02-28T11:09:45.665Z",
+        "Comment": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Schedule/131281140",
+        "ID": "131281140",
+        "Last Updated": "2026-02-21T11:10:43.723+00:00",
+        "Status": "",
+        "Active": true,
+        "Actor": [
+            "Practitioner/131281137"
+        ],
+        "Planning Horizon Start": "2026-02-22T11:10:44.321Z",
+        "Planning Horizon End": "2026-02-28T11:10:44.322Z",
+        "Comment": ""
+    }
+]

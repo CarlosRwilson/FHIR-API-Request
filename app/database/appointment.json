@@ -1,0 +1,256 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/105794721",
+        "ID": "105794721",
+        "Last Updated": "2026-02-10T17:48:51.629+00:00",
+        "Status": "fulfilled",
+        "Participants": [
+            "Patient/pacientek2bhealt",
+            "Practitioner/dr-martinez"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/105794731",
+        "ID": "105794731",
+        "Last Updated": "2026-02-10T17:48:56.097+00:00",
+        "Status": "fulfilled",
+        "Participants": [
+            "Patient/pacientek2bhealt",
+            "Practitioner/dr-perez"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/105794739",
+        "ID": "105794739",
+        "Last Updated": "2026-02-10T17:49:01.101+00:00",
+        "Status": "fulfilled",
+        "Participants": [
+            "Patient/pacientek2bhealt",
+            "Practitioner/dr-perez"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/96662322",
+        "ID": "96662322",
+        "Last Updated": "2026-02-12T12:14:33.618+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/89181705",
+            "Practitioner/98298415"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131277131",
+        "ID": "131277131",
+        "Last Updated": "2026-02-19T07:07:44.878+00:00",
+        "Status": "proposed",
+        "Participants": [
+            "Patient/89980852",
+            "Practitioner/user-7af2885d-d180-4264-b74f-523d23d91c9c"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290053",
+        "ID": "131290053",
+        "Last Updated": "2026-02-28T03:28:47.261+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131289914",
+            "Location/131289865",
+            "Practitioner/131290037"
+        ],
+        "Service Type": [
+            "Medicina General"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290103",
+        "ID": "131290103",
+        "Last Updated": "2026-02-28T03:41:33.164+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131289914",
+            "Location/131289952",
+            "Practitioner/131290093"
+        ],
+        "Service Type": [
+            "Oncolog\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290098",
+        "ID": "131290098",
+        "Last Updated": "2026-02-28T03:42:15.475+00:00",
+        "Status": "cancelled",
+        "Participants": [
+            "Patient/131289953",
+            "Location/131289952",
+            "Practitioner/131290093"
+        ],
+        "Service Type": [
+            "Oncolog\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290043",
+        "ID": "131290043",
+        "Last Updated": "2026-02-28T05:55:46.253+00:00",
+        "Status": "cancelled",
+        "Participants": [
+            "Patient/131289953",
+            "Location/131289865",
+            "Practitioner/131290037"
+        ],
+        "Service Type": [
+            "Medicina General"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290122",
+        "ID": "131290122",
+        "Last Updated": "2026-02-28T05:55:50.225+00:00",
+        "Status": "cancelled",
+        "Participants": [
+            "Patient/131289953",
+            "Location/131289952",
+            "Practitioner/131290093"
+        ],
+        "Service Type": [
+            "Oncolog\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290186",
+        "ID": "131290186",
+        "Last Updated": "2026-02-28T06:01:57.729+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131289953",
+            "Location/131289865",
+            "Practitioner/131290037"
+        ],
+        "Service Type": [
+            "Medicina General"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131290178",
+        "ID": "131290178",
+        "Last Updated": "2026-02-28T06:10:08.553+00:00",
+        "Status": "cancelled",
+        "Participants": [
+            "Patient/131289953",
+            "Location/131289865",
+            "Practitioner/131290037"
+        ],
+        "Service Type": [
+            "Medicina General"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291750",
+        "ID": "131291750",
+        "Last Updated": "2026-03-02T00:39:50.168+00:00",
+        "Status": "cancelled",
+        "Participants": [
+            "Patient/131291744",
+            "Location/131289865",
+            "Practitioner/131290012"
+        ],
+        "Service Type": [
+            "Pediatr\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291756",
+        "ID": "131291756",
+        "Last Updated": "2026-03-02T00:46:28.135+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131291744",
+            "Location/131289865",
+            "Practitioner/131290012"
+        ],
+        "Service Type": [
+            "Pediatr\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291778",
+        "ID": "131291778",
+        "Last Updated": "2026-03-02T01:12:36.339+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131291771",
+            "Location/131290008",
+            "Practitioner/131291773"
+        ],
+        "Service Type": [
+            "Nefrolog\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291803",
+        "ID": "131291803",
+        "Last Updated": "2026-03-02T01:44:35.468+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131291793",
+            "Location/131290008",
+            "Practitioner/131291773"
+        ],
+        "Service Type": [
+            "Nefrolog\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291753",
+        "ID": "131291753",
+        "Last Updated": "2026-03-02T05:14:51.008+00:00",
+        "Status": "cancelled",
+        "Participants": [
+            "Patient/131289953",
+            "Location/131289865",
+            "Practitioner/131290012"
+        ],
+        "Service Type": [
+            "Pediatr\u00eda"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291867",
+        "ID": "131291867",
+        "Last Updated": "2026-03-02T07:02:54.833+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131291082"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291868",
+        "ID": "131291868",
+        "Last Updated": "2026-03-02T07:03:20.364+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131291082"
+        ],
+        "Service Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Appointment/131291909",
+        "ID": "131291909",
+        "Last Updated": "2026-03-02T09:54:09.302+00:00",
+        "Status": "booked",
+        "Participants": [
+            "Patient/131289481",
+            "Practitioner/131283750"
+        ],
+        "Service Type": []
+    }
+]

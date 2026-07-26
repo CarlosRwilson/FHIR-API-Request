@@ -1,0 +1,714 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/98068728",
+        "ID": "98068728",
+        "Last Updated": "2026-02-10T05:48:25.885+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [],
+        "Category": {},
+        "Disease": {
+            "text": "Unilateral primary osteoarthritis, right knee"
+        },
+        "Patient": "Patient/98067569",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "2022-05-15",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/Cond-0",
+        "ID": "Cond-0",
+        "Last Updated": "2026-02-10T14:18:16.881+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "Active"
+        ],
+        "Verification Status": [
+            "Confirmed"
+        ],
+        "Category": {},
+        "Disease": {
+            "text": "Hipertensi\u00f3n esencial"
+        },
+        "Patient": "Patient/CC-12345678",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/cond-sinusitis-2019",
+        "ID": "cond-sinusitis-2019",
+        "Last Updated": "2026-02-10T17:49:09.388+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "Resuelta"
+        ],
+        "Verification Status": [
+            "Confirmado"
+        ],
+        "Category": {
+            "text": "Diagn\u00f3stico"
+        },
+        "Disease": {
+            "text": "Sinusitis aguda"
+        },
+        "Patient": "Patient/pacientek2bhealt",
+        "On set DateTime": "2019-03-10",
+        "Abatement DateTime": "2019-03-20",
+        "Recorder Date": "2019-03-10",
+        "Practitioner": "Practitioner/dr-perez",
+        "Note": {
+            "text": "Cuadro respiratorio alto compatible con sinusitis; se indic\u00f3 tratamiento antibi\u00f3tico (luego suspendido por alergia)."
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836458",
+        "ID": "123836458",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "195917001",
+                    "display": "asthma"
+                }
+            ],
+            "text": "asthma"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836459",
+        "ID": "123836459",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "73211009",
+                    "display": "diabetes"
+                }
+            ],
+            "text": "diabetes"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836460",
+        "ID": "123836460",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "38341003",
+                    "display": "hypertension"
+                }
+            ],
+            "text": "hypertension"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836461",
+        "ID": "123836461",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "35489007",
+                    "display": "depression"
+                }
+            ],
+            "text": "depression"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836462",
+        "ID": "123836462",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "247389009",
+                    "display": "neuropathic pain"
+                }
+            ],
+            "text": "neuropathic pain"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836464",
+        "ID": "123836464",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "69896004",
+                    "display": "rheumatoid arthritis"
+                }
+            ],
+            "text": "rheumatoid arthritis - both hands"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836465",
+        "ID": "123836465",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "69896004",
+                    "display": "rheumatoid arthritis"
+                }
+            ],
+            "text": "rheumatoid arthritis - left elbow"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836466",
+        "ID": "123836466",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "235595009",
+                    "display": "GERD"
+                }
+            ],
+            "text": "GERD"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836468",
+        "ID": "123836468",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "13644009",
+                    "display": "high cholesterol"
+                }
+            ],
+            "text": "high cholesterol"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836469",
+        "ID": "123836469",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "414941998",
+                    "display": "onychomycosis"
+                }
+            ],
+            "text": "onychomycosis"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/123836470",
+        "ID": "123836470",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "194818000",
+                    "display": "angina"
+                }
+            ],
+            "text": "angina"
+        },
+        "Patient": "Patient/123836453",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/131264012",
+        "ID": "131264012",
+        "Last Updated": "2026-02-12T11:30:59.348+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "recurrence"
+        ],
+        "Verification Status": [
+            "differential"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "encounter-diagnosis"
+                }
+            ]
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "code": "J45.20",
+                    "display": "a"
+                }
+            ],
+            "text": "a"
+        },
+        "Patient": "Patient/pacientek2bhealt",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "2026-02-12T17:00:58+05:30",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/131264022",
+        "ID": "131264022",
+        "Last Updated": "2026-02-12T11:59:37.586+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "relapse"
+        ],
+        "Verification Status": [
+            "differential"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "problem-list-item"
+                }
+            ]
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "code": "J45.20",
+                    "display": "ee"
+                }
+            ],
+            "text": "ee"
+        },
+        "Patient": "Patient/131264020",
+        "On set DateTime": "2026-02-13T00:00:00+05:30",
+        "Abatement DateTime": "",
+        "Recorder Date": "2026-02-12T17:29:37+05:30",
+        "Practitioner": "",
+        "Note": {
+            "text": "ee"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/131264209",
+        "ID": "131264209",
+        "Last Updated": "2026-02-12T12:37:54.779+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "relapse"
+        ],
+        "Verification Status": [
+            "provisional"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                    "code": "encounter-diagnosis"
+                }
+            ]
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "code": "J44.0",
+                    "display": "cold"
+                }
+            ],
+            "text": "cold"
+        },
+        "Patient": "Patient/90629914",
+        "On set DateTime": "2026-02-12T00:00:00+05:30",
+        "Abatement DateTime": "",
+        "Recorder Date": "2026-02-12T18:07:54+05:30",
+        "Practitioner": "",
+        "Note": {
+            "text": "s"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/131271366",
+        "ID": "131271366",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "195917001",
+                    "display": "asthma"
+                }
+            ],
+            "text": "asthma"
+        },
+        "Patient": "Patient/131271362",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/131271367",
+        "ID": "131271367",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "73211009",
+                    "display": "diabetes"
+                }
+            ],
+            "text": "diabetes"
+        },
+        "Patient": "Patient/131271362",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Condition/131271368",
+        "ID": "131271368",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "",
+        "Clinical Status": [
+            "active"
+        ],
+        "Verification Status": [
+            "confirmed"
+        ],
+        "Category": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "14657009",
+                    "display": "Diagnosis"
+                }
+            ],
+            "text": "Diagnosis"
+        },
+        "Disease": {
+            "coding": [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "38341003",
+                    "display": "hypertension"
+                }
+            ],
+            "text": "hypertension"
+        },
+        "Patient": "Patient/131271362",
+        "On set DateTime": "",
+        "Abatement DateTime": "",
+        "Recorder Date": "",
+        "Practitioner": "",
+        "Note": {}
+    }
+]

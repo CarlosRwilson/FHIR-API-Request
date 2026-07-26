@@ -1,0 +1,854 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131273010",
+        "ID": "131273010",
+        "Last Updated": "2026-02-16T04:53:39.580+00:00",
+        "Status": "active",
+        "Type": [
+            "Institutional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-11T12:34:47Z",
+        "Patient": "Daniel Joseph Wilson",
+        "Insurer": "Centene Corporation",
+        "Requestor": "Pacific Medical Center",
+        "Request": "Claim/131273009",
+        "Outcome": "queued",
+        "Disposition": "Pending review by medical director. Additional clinical documentation may be required.",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-03-27"
+        },
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "eligible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 212.55,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": [
+            {
+                "number": 1,
+                "type": "display",
+                "text": "Prior authorization request received and is under review. Expected decision within 72 hours due to urgent status."
+            },
+            {
+                "number": 2,
+                "type": "display",
+                "text": "Please ensure all relevant clinical reports and recent diagnostic results are submitted."
+            }
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131273017",
+        "ID": "131273017",
+        "Last Updated": "2026-02-16T04:53:41.686+00:00",
+        "Status": "active",
+        "Type": [
+            "Institutional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-15T12:34:56Z",
+        "Patient": "Jessica Lynn Anderson",
+        "Insurer": "WellCare Health",
+        "Requestor": "North Texas Regional",
+        "Request": "Claim/131273016",
+        "Outcome": "queued",
+        "Disposition": "Pending review by medical director. Additional clinical documentation may be required.",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-03-27"
+        },
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "eligible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 259.09,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": [
+            {
+                "number": 1,
+                "type": "display",
+                "text": "Prior authorization request received and is under review. Expected decision within 72 hours due to urgent status."
+            },
+            {
+                "number": 2,
+                "type": "display",
+                "text": "Please ensure all relevant clinical reports and recent diagnostic results are submitted."
+            }
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131273024",
+        "ID": "131273024",
+        "Last Updated": "2026-02-16T04:53:43.770+00:00",
+        "Status": "active",
+        "Type": [
+            "Institutional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-11T12:35:05Z",
+        "Patient": "Matthew Thomas Taylor",
+        "Insurer": "Oscar Health",
+        "Requestor": "Silicon Valley Medical",
+        "Request": "Claim/131273023",
+        "Outcome": "queued",
+        "Disposition": "Pending review by medical director. Additional clinical documentation may be required.",
+        "Period": {
+            "start": "2026-03-04",
+            "end": "2026-04-03"
+        },
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "eligible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 295.41,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": [
+            {
+                "number": 1,
+                "type": "display",
+                "text": "Prior authorization request received and is under review. Expected decision within 72 hours due to urgent status."
+            },
+            {
+                "number": 2,
+                "type": "display",
+                "text": "Please ensure all relevant clinical reports and recent diagnostic results are submitted."
+            }
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131273994",
+        "ID": "131273994",
+        "Last Updated": "2026-02-17T03:40:42.361+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-17T09:10:41Z",
+        "Patient": "Olivia Grace Chen",
+        "Insurer": "Pacific Health Alliance",
+        "Requestor": "Pacific Northwest Medical",
+        "Request": "Claim/131273993",
+        "Outcome": "queued",
+        "Disposition": "Request queued for review - awaiting authorization decision",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "submitted",
+                            "display": "Submitted Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 14068.030798638138,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "eligible",
+                            "display": "Eligible Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 10914.969016262241,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131274001",
+        "ID": "131274001",
+        "Last Updated": "2026-02-17T03:40:44.425+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-17T09:10:43Z",
+        "Patient": "Marcus Alexander O'Brien",
+        "Insurer": "Mountain States Insurance",
+        "Requestor": "Rocky Mountain Healthcare",
+        "Request": "Claim/131274000",
+        "Outcome": "queued",
+        "Disposition": "Request queued for review - awaiting authorization decision",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "submitted",
+                            "display": "Submitted Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 10301.16881827907,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "eligible",
+                            "display": "Eligible Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 4946.468857924213,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131274008",
+        "ID": "131274008",
+        "Last Updated": "2026-02-17T03:40:46.522+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-17T09:10:45Z",
+        "Patient": "Isabella Sofia Patel",
+        "Insurer": "Lone Star Health Plan",
+        "Requestor": "Texas Hill Country Hospital",
+        "Request": "Claim/131274007",
+        "Outcome": "queued",
+        "Disposition": "Request queued for review - awaiting authorization decision",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "submitted",
+                            "display": "Submitted Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 5680.769345858172,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "eligible",
+                            "display": "Eligible Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 9664.55793038788,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131274015",
+        "ID": "131274015",
+        "Last Updated": "2026-02-17T03:40:48.636+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-17T09:10:47Z",
+        "Patient": "Ethan James Nguyen",
+        "Insurer": "Northwest Coverage Group",
+        "Requestor": "Columbia River Medical Center",
+        "Request": "Claim/131274014",
+        "Outcome": "queued",
+        "Disposition": "Request queued for review - awaiting authorization decision",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "submitted",
+                            "display": "Submitted Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 8111.299226873031,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "eligible",
+                            "display": "Eligible Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 4220.6895918467335,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131274022",
+        "ID": "131274022",
+        "Last Updated": "2026-02-17T03:40:50.807+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "preauthorization",
+        "Created": "2026-02-17T09:10:49Z",
+        "Patient": "Ava Elizabeth Kowalski",
+        "Insurer": "Southern Regional Insurance",
+        "Requestor": "Music City Regional Hospital",
+        "Request": "Claim/131274021",
+        "Outcome": "queued",
+        "Disposition": "Request queued for review - awaiting authorization decision",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "submitted",
+                            "display": "Submitted Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 9382.585498313725,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                            "code": "eligible",
+                            "display": "Eligible Amount"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 4591.023545362015,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287725",
+        "ID": "131287725",
+        "Last Updated": "2026-02-25T17:02:45.726+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287724",
+        "Outcome": "complete",
+        "Disposition": "Approved \u2014 Prior authorization granted",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-12-31"
+        },
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "A1",
+                            "display": "Certified in Total"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287727",
+        "ID": "131287727",
+        "Last Updated": "2026-02-25T17:02:47.726+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287726",
+        "Outcome": "queued",
+        "Disposition": "Pending \u2014 Additional clinical documentation required",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "A3",
+                            "display": "Not Certified \u2014 Pended for Review"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287729",
+        "ID": "131287729",
+        "Last Updated": "2026-02-25T17:02:49.727+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287728",
+        "Outcome": "error",
+        "Disposition": "Denied \u2014 Service not medically necessary per current payer guidelines",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "50",
+                            "display": "Not Medically Necessary"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287731",
+        "ID": "131287731",
+        "Last Updated": "2026-02-25T17:02:51.726+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287730",
+        "Outcome": "complete",
+        "Disposition": "Authorization not required for this service",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "NA",
+                            "display": "Not Required"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287753",
+        "ID": "131287753",
+        "Last Updated": "2026-02-25T17:16:30.027+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287752",
+        "Outcome": "complete",
+        "Disposition": "Approved \u2014 Prior authorization granted",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-12-31"
+        },
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "A1",
+                            "display": "Certified in Total"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287755",
+        "ID": "131287755",
+        "Last Updated": "2026-02-25T17:16:32.026+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287754",
+        "Outcome": "queued",
+        "Disposition": "Pending \u2014 Additional clinical documentation required",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "A3",
+                            "display": "Not Certified \u2014 Pended for Review"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287757",
+        "ID": "131287757",
+        "Last Updated": "2026-02-25T17:16:34.026+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287756",
+        "Outcome": "error",
+        "Disposition": "Denied \u2014 Service not medically necessary per current payer guidelines",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "50",
+                            "display": "Not Medically Necessary"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287759",
+        "ID": "131287759",
+        "Last Updated": "2026-02-25T17:16:36.026+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287758",
+        "Outcome": "complete",
+        "Disposition": "Authorization not required for this service",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "NA",
+                            "display": "Not Required"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287761",
+        "ID": "131287761",
+        "Last Updated": "2026-02-25T17:20:17.906+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287760",
+        "Outcome": "complete",
+        "Disposition": "Approved \u2014 Prior authorization granted",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-12-31"
+        },
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "A1",
+                            "display": "Certified in Total"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287763",
+        "ID": "131287763",
+        "Last Updated": "2026-02-25T17:20:19.905+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287762",
+        "Outcome": "queued",
+        "Disposition": "Pending \u2014 Additional clinical documentation required",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "A3",
+                            "display": "Not Certified \u2014 Pended for Review"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287765",
+        "ID": "131287765",
+        "Last Updated": "2026-02-25T17:20:21.905+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287764",
+        "Outcome": "error",
+        "Disposition": "Denied \u2014 Service not medically necessary per current payer guidelines",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "50",
+                            "display": "Not Medically Necessary"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ClaimResponse/131287767",
+        "ID": "131287767",
+        "Last Updated": "2026-02-25T17:20:23.906+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "preauthorization",
+        "Created": "2026-02-25",
+        "Patient": "PA Patient",
+        "Insurer": "Payer Sandbox",
+        "Requestor": "",
+        "Request": "Claim/131287766",
+        "Outcome": "complete",
+        "Disposition": "Authorization not required for this service",
+        "Period": {},
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "reason": {
+                    "coding": [
+                        {
+                            "system": "https://x12.org/codes/claim-adjustment-reason-codes",
+                            "code": "NA",
+                            "display": "Not Required"
+                        }
+                    ]
+                }
+            }
+        ],
+        "Process Note": []
+    }
+]

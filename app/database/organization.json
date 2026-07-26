@@ -1,0 +1,405 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131273014",
+        "ID": "131273014",
+        "Last Updated": "2026-02-15T07:04:54.064+00:00",
+        "Status": "",
+        "Identifier": "1122334464",
+        "Name": "WellCare Health",
+        "Line": [
+            "100 Insurance Plaza"
+        ],
+        "City": "Boston",
+        "District": "",
+        "Postal Code": "02110",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131273021",
+        "ID": "131273021",
+        "Last Updated": "2026-02-15T07:05:03.256+00:00",
+        "Status": "",
+        "Identifier": "1122334465",
+        "Name": "Oscar Health",
+        "Line": [
+            "100 Insurance Plaza"
+        ],
+        "City": "Boston",
+        "District": "",
+        "Postal Code": "02110",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131273988",
+        "ID": "131273988",
+        "Last Updated": "2026-02-17T02:59:21.371+00:00",
+        "Status": "",
+        "Identifier": "8765432101",
+        "Name": "Pacific Northwest Medical",
+        "Line": [
+            "2000 University Way"
+        ],
+        "City": "Seattle",
+        "District": "",
+        "Postal Code": "98102",
+        "Country": "US",
+        "State": "WA",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Healthcare Provider"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131273990",
+        "ID": "131273990",
+        "Last Updated": "2026-02-17T02:59:23.495+00:00",
+        "Status": "",
+        "Identifier": "3344556601",
+        "Name": "Pacific Health Alliance",
+        "Line": [
+            "200 Coverage Plaza"
+        ],
+        "City": "Hartford",
+        "District": "",
+        "Postal Code": "06101",
+        "Country": "US",
+        "State": "CT",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131273998",
+        "ID": "131273998",
+        "Last Updated": "2026-02-17T02:59:31.894+00:00",
+        "Status": "",
+        "Identifier": "3344556602",
+        "Name": "Mountain States Insurance",
+        "Line": [
+            "200 Coverage Plaza"
+        ],
+        "City": "Hartford",
+        "District": "",
+        "Postal Code": "06101",
+        "Country": "US",
+        "State": "CT",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131274003",
+        "ID": "131274003",
+        "Last Updated": "2026-02-17T02:59:37.119+00:00",
+        "Status": "",
+        "Identifier": "8765432103",
+        "Name": "Texas Hill Country Hospital",
+        "Line": [
+            "6700 Lamar Blvd"
+        ],
+        "City": "Austin",
+        "District": "",
+        "Postal Code": "78702",
+        "Country": "US",
+        "State": "TX",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Healthcare Provider"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131274005",
+        "ID": "131274005",
+        "Last Updated": "2026-02-17T02:59:39.242+00:00",
+        "Status": "",
+        "Identifier": "3344556603",
+        "Name": "Lone Star Health Plan",
+        "Line": [
+            "200 Coverage Plaza"
+        ],
+        "City": "Hartford",
+        "District": "",
+        "Postal Code": "06101",
+        "Country": "US",
+        "State": "CT",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131274010",
+        "ID": "131274010",
+        "Last Updated": "2026-02-17T02:59:44.444+00:00",
+        "Status": "",
+        "Identifier": "8765432104",
+        "Name": "Columbia River Medical Center",
+        "Line": [
+            "8900 Division St"
+        ],
+        "City": "Portland",
+        "District": "",
+        "Postal Code": "97202",
+        "Country": "US",
+        "State": "OR",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Healthcare Provider"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131274012",
+        "ID": "131274012",
+        "Last Updated": "2026-02-17T02:59:46.637+00:00",
+        "Status": "",
+        "Identifier": "3344556604",
+        "Name": "Northwest Coverage Group",
+        "Line": [
+            "200 Coverage Plaza"
+        ],
+        "City": "Hartford",
+        "District": "",
+        "Postal Code": "06101",
+        "Country": "US",
+        "State": "CT",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131274017",
+        "ID": "131274017",
+        "Last Updated": "2026-02-17T02:59:51.772+00:00",
+        "Status": "",
+        "Identifier": "8765432105",
+        "Name": "Music City Regional Hospital",
+        "Line": [
+            "1200 Church St"
+        ],
+        "City": "Nashville",
+        "District": "",
+        "Postal Code": "37202",
+        "Country": "US",
+        "State": "TN",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Healthcare Provider"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131274019",
+        "ID": "131274019",
+        "Last Updated": "2026-02-17T02:59:53.875+00:00",
+        "Status": "",
+        "Identifier": "3344556605",
+        "Name": "Southern Regional Insurance",
+        "Line": [
+            "200 Coverage Plaza"
+        ],
+        "City": "Hartford",
+        "District": "",
+        "Postal Code": "06101",
+        "Country": "US",
+        "State": "CT",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131275807",
+        "ID": "131275807",
+        "Last Updated": "2026-02-17T13:37:07.631+00:00",
+        "Status": "",
+        "Identifier": "410102665527000",
+        "Name": "CABINET WAYNE BRUCE",
+        "Line": [
+            null
+        ],
+        "City": "BORDEAUX",
+        "District": "33",
+        "Postal Code": "33000",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "GEOGRAPHICAL-ENTITY",
+            "SA07",
+            "86.90D",
+            "70"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131275833",
+        "ID": "131275833",
+        "Last Updated": "2026-02-17T15:55:19.652+00:00",
+        "Status": "",
+        "Identifier": "9876543210",
+        "Name": "Blue Cross Blue Shield of Michigan",
+        "Line": [
+            "600 E Lafayette Blvd"
+        ],
+        "City": "Detroit",
+        "District": "",
+        "Postal Code": "48226",
+        "Country": "US",
+        "State": "MI",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Insurance Company"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131276547",
+        "ID": "131276547",
+        "Last Updated": "2026-02-18T10:35:01.035+00:00",
+        "Status": "",
+        "Identifier": "code_kbh_clinic",
+        "Name": "KBH CLINIC",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": "",
+        "Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131276621",
+        "ID": "131276621",
+        "Last Updated": "2026-02-18T12:06:49.104+00:00",
+        "Status": "",
+        "Identifier": "code_kbh_clinic",
+        "Name": "KBH CLINIC",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": "",
+        "Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131276769",
+        "ID": "131276769",
+        "Last Updated": "2026-02-18T17:16:06.121+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "Hautarztpraxis Dr. Star",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": "",
+        "Type": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131277135",
+        "ID": "131277135",
+        "Last Updated": "2026-02-19T07:11:20.851+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "medplex",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Clinic"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/131277137",
+        "ID": "131277137",
+        "Last Updated": "2026-02-19T07:12:12.426+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "Medicity ",
+        "Line": [],
+        "City": "doon",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": true,
+        "Type": [
+            "Hospital"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/org-acme-salud",
+        "ID": "org-acme-salud",
+        "Last Updated": "2026-02-21T02:05:04.876+00:00",
+        "Status": "",
+        "Identifier": "900123456-1",
+        "Name": "ACME Salud",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": "",
+        "Type": [
+            "Healthcare Provider"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Organization/org-aseguradora-salud-completa",
+        "ID": "org-aseguradora-salud-completa",
+        "Last Updated": "2026-02-21T02:05:05.877+00:00",
+        "Status": "",
+        "Identifier": "SALUD-COMPLETA-001",
+        "Name": "Salud Completa",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Active": "",
+        "Type": [
+            "Payer"
+        ]
+    }
+]

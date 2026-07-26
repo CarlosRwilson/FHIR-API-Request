@@ -1,0 +1,297 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/123836471",
+        "ID": "123836471",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Patient": "Patient/123836453",
+        "Practitioner": "Practitioner/123836455",
+        "Allergy": [
+            "Ibuprofen"
+        ],
+        "Reaction": [
+            "Urticaria"
+        ],
+        "Category": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/123836472",
+        "ID": "123836472",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "",
+        "Patient": "Patient/123836453",
+        "Practitioner": "Practitioner/123836456",
+        "Allergy": [
+            "Allergy to eggs"
+        ],
+        "Reaction": [
+            "Hives",
+            "Nau sea",
+            "Vomiting"
+        ],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131269075",
+        "ID": "131269075",
+        "Last Updated": "2026-02-13T10:20:22.086+00:00",
+        "Status": "",
+        "Patient": "Patient/90629914",
+        "Practitioner": "Practitioner/103346185",
+        "Allergy": [
+            "ee"
+        ],
+        "Reaction": [
+            "hh"
+        ],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131271377",
+        "ID": "131271377",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "",
+        "Patient": "Patient/131271362",
+        "Practitioner": "Practitioner/131271363",
+        "Allergy": [
+            "Ibuprofen"
+        ],
+        "Reaction": [
+            "Urticaria"
+        ],
+        "Category": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131271378",
+        "ID": "131271378",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "",
+        "Patient": "Patient/131271362",
+        "Practitioner": "Practitioner/131271365",
+        "Allergy": [
+            "Allergy to eggs"
+        ],
+        "Reaction": [
+            "Hives",
+            "Nausea",
+            "Vomiting"
+        ],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131276339",
+        "ID": "131276339",
+        "Last Updated": "2026-02-18T06:24:44.232+00:00",
+        "Status": "",
+        "Patient": "Patient/90117077",
+        "Practitioner": "Practitioner/user-82f66f52-14d0-4339-84f1-82b9e5682aa1",
+        "Allergy": [
+            "Peanuts"
+        ],
+        "Reaction": [
+            "hh",
+            "oral"
+        ],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131276361",
+        "ID": "131276361",
+        "Last Updated": "2026-02-18T06:54:12.604+00:00",
+        "Status": "",
+        "Patient": "Patient/90117077",
+        "Practitioner": "",
+        "Allergy": [
+            "Latex"
+        ],
+        "Reaction": [],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131276593",
+        "ID": "131276593",
+        "Last Updated": "2026-02-18T11:33:15.237+00:00",
+        "Status": "",
+        "Patient": "Patient/pacientek2bhealt",
+        "Practitioner": "",
+        "Allergy": [
+            "Peanuts"
+        ],
+        "Reaction": [
+            "rash"
+        ],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131276675",
+        "ID": "131276675",
+        "Last Updated": "2026-02-18T13:00:27.263+00:00",
+        "Status": "",
+        "Patient": "Patient/131264020",
+        "Practitioner": "",
+        "Allergy": [
+            "Latex"
+        ],
+        "Reaction": [
+            "hh"
+        ],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131276677",
+        "ID": "131276677",
+        "Last Updated": "2026-02-18T13:05:50.550+00:00",
+        "Status": "",
+        "Patient": "Patient/131264020",
+        "Practitioner": "",
+        "Allergy": [
+            "Penicillin"
+        ],
+        "Reaction": [
+            "rash"
+        ],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131281213",
+        "ID": "131281213",
+        "Last Updated": "2026-02-21T14:34:25.106+00:00",
+        "Status": "",
+        "Patient": "Patient/131281192",
+        "Practitioner": "",
+        "Allergy": [
+            "Latex"
+        ],
+        "Reaction": [],
+        "Category": "biologic"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131281341",
+        "ID": "131281341",
+        "Last Updated": "2026-02-21T18:58:07.539+00:00",
+        "Status": "",
+        "Patient": "Patient/example-r4",
+        "Practitioner": "Practitioner/131281324",
+        "Allergy": [
+            "Penicillin"
+        ],
+        "Reaction": [
+            "Itchy skin eruption"
+        ],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131286286",
+        "ID": "131286286",
+        "Last Updated": "2026-02-24T16:28:51.459+00:00",
+        "Status": "",
+        "Patient": "Patient/131286295",
+        "Practitioner": "",
+        "Allergy": [],
+        "Reaction": [
+            "lattice",
+            "ALTRE AFFEZIONI PRURIGINOSE SPECIFICATE"
+        ],
+        "Category": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131287090",
+        "ID": "131287090",
+        "Last Updated": "2026-02-25T09:32:12.731+00:00",
+        "Status": "",
+        "Patient": "Patient/131287075",
+        "Practitioner": "Practitioner/131287077",
+        "Allergy": [
+            "Ibuprofen"
+        ],
+        "Reaction": [
+            "Urticaria"
+        ],
+        "Category": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131287091",
+        "ID": "131287091",
+        "Last Updated": "2026-02-25T09:32:12.731+00:00",
+        "Status": "",
+        "Patient": "Patient/131287075",
+        "Practitioner": "Practitioner/131287078",
+        "Allergy": [
+            "Allergy to eggs"
+        ],
+        "Reaction": [
+            "Hives",
+            "Nausea",
+            "Vomiting"
+        ],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131287677",
+        "ID": "131287677",
+        "Last Updated": "2026-02-25T16:39:26.251+00:00",
+        "Status": "",
+        "Patient": "Patient/131287660",
+        "Practitioner": "",
+        "Allergy": [
+            "Allergy to penicillin"
+        ],
+        "Reaction": [
+            "Urticarial rash"
+        ],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131289259",
+        "ID": "131289259",
+        "Last Updated": "2026-02-26T18:31:47.497+00:00",
+        "Status": "",
+        "Patient": "Patient/131289233",
+        "Practitioner": "Practitioner/131289242",
+        "Allergy": [
+            "Penicillin"
+        ],
+        "Reaction": [
+            "Itchy skin eruption"
+        ],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131291097",
+        "ID": "131291097",
+        "Last Updated": "2026-02-28T15:42:06.090+00:00",
+        "Status": "",
+        "Patient": "Patient/131287660",
+        "Practitioner": "",
+        "Allergy": [
+            "Allergy to sulfonamide"
+        ],
+        "Reaction": [],
+        "Category": "medication"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131291111",
+        "ID": "131291111",
+        "Last Updated": "2026-02-28T17:12:35.611+00:00",
+        "Status": "",
+        "Patient": "Patient/131287660",
+        "Practitioner": "",
+        "Allergy": [],
+        "Reaction": [],
+        "Category": "food"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AllergyIntolerance/131294141",
+        "ID": "131294141",
+        "Last Updated": "2026-03-02T14:21:22.199+00:00",
+        "Status": "",
+        "Patient": "Patient/131286295",
+        "Practitioner": "",
+        "Allergy": [],
+        "Reaction": [
+            "lattice",
+            "ALTRE AFFEZIONI PRURIGINOSE SPECIFICATE"
+        ],
+        "Category": {}
+    }
+]

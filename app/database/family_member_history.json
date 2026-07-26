@@ -1,0 +1,414 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131276591",
+        "ID": "131276591",
+        "Last Updated": "2026-02-18T11:32:34.032+00:00",
+        "Status": "partial",
+        "Patient": {
+            "reference": "Patient/pacientek2bhealt",
+            "display": "Carlos Fuentes"
+        },
+        "Date": "2026-02-18T17:02:33+05:30",
+        "Relationship": [
+            "Paternal Grandmother"
+        ],
+        "Sex": [
+            "male"
+        ],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [
+            "Other and unspecified soft tissue disorders"
+        ],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131276595",
+        "ID": "131276595",
+        "Last Updated": "2026-02-18T11:33:47.169+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/pacientek2bhealt",
+            "display": "Carlos Fuentes"
+        },
+        "Date": "2026-02-18T17:03:46+05:30",
+        "Relationship": [
+            "Mother"
+        ],
+        "Sex": [
+            "female"
+        ],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [
+            "Type 2 diabetes mellitus"
+        ],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131276682",
+        "ID": "131276682",
+        "Last Updated": "2026-02-18T13:07:16.190+00:00",
+        "Status": "partial",
+        "Patient": {
+            "reference": "Patient/131264020",
+            "display": "Ved Prakash"
+        },
+        "Date": "2026-02-18T18:37:15+05:30",
+        "Relationship": [
+            "Uncle"
+        ],
+        "Sex": [
+            "male"
+        ],
+        "Deceased Age": "",
+        "Note": "gg",
+        "Condition": [
+            "Enterotoxigenic Escherichia coli infection"
+        ],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131286271",
+        "ID": "131286271",
+        "Last Updated": "2026-02-24T16:28:51.459+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131286295"
+        },
+        "Date": "2022-04-09T12:11:22+02:00",
+        "Relationship": [
+            "Mother"
+        ],
+        "Sex": [
+            "female"
+        ],
+        "Deceased Age": 60,
+        "Note": "#[REF_OBS]",
+        "Condition": [
+            "Diagnosi codice ICD",
+            "COLESTEROLOSI DELLA COLECISTI"
+        ],
+        "Onset Age": 35
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131287686",
+        "ID": "131287686",
+        "Last Updated": "2026-02-25T16:39:39.495+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131287660"
+        },
+        "Date": "",
+        "Relationship": [
+            "father"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [
+            "Myocardial infarction"
+        ],
+        "Onset Age": 54
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131288340",
+        "ID": "131288340",
+        "Last Updated": "2026-02-26T12:11:17.297+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131288336",
+            "identifier": {
+                "system": "https://fhir.nhs.uk/Id/nhs-number",
+                "value": "9736175243"
+            }
+        },
+        "Date": "",
+        "Relationship": [
+            "parent"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131291134",
+        "ID": "131291134",
+        "Last Updated": "2026-02-28T18:47:08.008+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/testmartin"
+        },
+        "Date": "",
+        "Relationship": [
+            "mother"
+        ],
+        "Sex": [
+            "Female"
+        ],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [
+            "Diabetes mellitus type 2"
+        ],
+        "Onset Age": 50
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131294125",
+        "ID": "131294125",
+        "Last Updated": "2026-03-02T14:21:22.199+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131286295"
+        },
+        "Date": "2022-04-09T12:11:22+02:00",
+        "Relationship": [
+            "Mother"
+        ],
+        "Sex": [
+            "female"
+        ],
+        "Deceased Age": 60,
+        "Note": "#[REF_OBS]",
+        "Condition": [
+            "Diagnosi codice ICD",
+            "COLESTEROLOSI DELLA COLECISTI"
+        ],
+        "Onset Age": 35
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131311520",
+        "ID": "131311520",
+        "Last Updated": "2026-03-04T17:08:50.670+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131311516"
+        },
+        "Date": "",
+        "Relationship": [],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131568297",
+        "ID": "131568297",
+        "Last Updated": "2026-03-30T07:11:28.493+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131315068"
+        },
+        "Date": "",
+        "Relationship": [
+            "Family"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Encounter 131315074. Family screening: Other. Other: ",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131568329",
+        "ID": "131568329",
+        "Last Updated": "2026-03-30T07:19:46.848+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131568322"
+        },
+        "Date": "",
+        "Relationship": [
+            "Family"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Encounter 131568323. Family screening: Other. Other: Test",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131615483",
+        "ID": "131615483",
+        "Last Updated": "2026-04-02T07:02:06.375+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131491309"
+        },
+        "Date": "",
+        "Relationship": [
+            "Family"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Encounter 131615402. Family screening: none. Other: Test",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131616753",
+        "ID": "131616753",
+        "Last Updated": "2026-04-02T07:22:47.770+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/CC-12345678"
+        },
+        "Date": "",
+        "Relationship": [
+            "Family"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Encounter 131616698. Family screening: Scoline apnoea. Other: ",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131616951",
+        "ID": "131616951",
+        "Last Updated": "2026-04-02T07:25:55.991+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/CC-12345678"
+        },
+        "Date": "",
+        "Relationship": [
+            "Family"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Encounter 131616814. Family screening: Scoline apnoea. Other: Nothing",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131621544",
+        "ID": "131621544",
+        "Last Updated": "2026-04-02T08:22:23.331+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131286934"
+        },
+        "Date": "",
+        "Relationship": [
+            "Family"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Encounter 131620699. Family screening: Scoline apnoea. Other: ",
+        "Condition": [],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/lily-fmh-father",
+        "ID": "lily-fmh-father",
+        "Last Updated": "2026-04-16T13:39:02.452+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/lily-chen-001"
+        },
+        "Date": "",
+        "Relationship": [
+            "Father"
+        ],
+        "Sex": [
+            "Male"
+        ],
+        "Deceased Age": "",
+        "Note": "Father is tall (6'4\"), thin build, mild scoliosis, wears glasses since age 10, self-described as 'double-jointed'. Undiagnosed but phenotype consistent with Marfan features.",
+        "Condition": [
+            "Tall stature"
+        ],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/lily-fmh-paternal-grandmother",
+        "ID": "lily-fmh-paternal-grandmother",
+        "Last Updated": "2026-04-16T13:39:02.452+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/lily-chen-001"
+        },
+        "Date": "",
+        "Relationship": [
+            "Paternal grandmother"
+        ],
+        "Sex": [
+            "Female"
+        ],
+        "Deceased Age": "",
+        "Note": "Paternal grandmother died suddenly at age 45 from 'heart problems'. Family suspects it may have been an aortic dissection. This is consistent with undiagnosed Marfan syndrome in the paternal lineage.",
+        "Condition": [
+            "Heart disease"
+        ],
+        "Onset Age": 45
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/noah-fmh-parents",
+        "ID": "noah-fmh-parents",
+        "Last Updated": "2026-04-16T22:14:38.672+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/noah-williams-001"
+        },
+        "Date": "",
+        "Relationship": [
+            "Natural parent"
+        ],
+        "Sex": [],
+        "Deceased Age": "",
+        "Note": "Both parents are healthy carriers of Ashkenazi Jewish descent. Parents are first cousins. No other affected family members known. Pattern consistent with autosomal recessive inheritance.",
+        "Condition": [
+            "Consanguinity"
+        ],
+        "Onset Age": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131938691",
+        "ID": "131938691",
+        "Last Updated": "2026-04-17T15:36:05.758+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131938513",
+            "display": "Gloomington"
+        },
+        "Date": "2026-04-03T21:22:34Z",
+        "Relationship": [
+            "mother"
+        ],
+        "Sex": [
+            "Female"
+        ],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [
+            "Myocardial infarction"
+        ],
+        "Onset Age": 54
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/FamilyMemberHistory/131944938",
+        "ID": "131944938",
+        "Last Updated": "2026-04-21T16:31:35.490+00:00",
+        "Status": "completed",
+        "Patient": {
+            "reference": "Patient/131944923"
+        },
+        "Date": "",
+        "Relationship": [
+            "father"
+        ],
+        "Sex": [
+            "Male"
+        ],
+        "Deceased Age": "",
+        "Note": "",
+        "Condition": [
+            "Myocardial infarction"
+        ],
+        "Onset Age": 55
+    }
+]

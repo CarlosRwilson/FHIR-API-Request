@@ -4,6 +4,8 @@ requires = [
     "setuptools>=77.0.3"
 ]
 [project]
+name = "Fhir_extractor"
+version = "0.1.0"
 authors = [
     { email = "wilsoncarlosraul@gmail.com", name = "Carlos Wilson"},
 ]
@@ -17,6 +19,7 @@ dependencies = [
     "psycopg2-binary>=2.9.12",
     "pandas>=3.0.4",
     "dotenv>=0.9.9",
-    "playwright>=1.61.0"
+    "playwright>=1.61.0",
+    "SQLAlchemy>=2.0.51"
 
 ]

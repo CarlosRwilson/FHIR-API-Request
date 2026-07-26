@@ -1,0 +1,254 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1758031032850",
+        "ID": "cfsb1758031032850",
+        "Last Updated": "2026-02-10T13:53:21.221+00:00",
+        "Status": "active",
+        "Medicine": [
+            "09292872"
+        ],
+        "text": "Atorvastatin-ratiopharm\u00ae 40mg 30 Filmtbl. N1",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1758229364449",
+        "ID": "cfsb1758229364449",
+        "Last Updated": "2026-02-10T13:53:21.221+00:00",
+        "Status": "active",
+        "Medicine": [
+            "00176868"
+        ],
+        "text": "Citalopram- 1 A Pharma\u00ae 20mg 100 Filmtabletten N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1761833431715",
+        "ID": "cfsb1761833431715",
+        "Last Updated": "2026-02-10T14:00:27.566+00:00",
+        "Status": "active",
+        "Medicine": [
+            "07245625"
+        ],
+        "text": "Sumatriptan Aurubindo 50mg 100 Tbl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1761833816220",
+        "ID": "cfsb1761833816220",
+        "Last Updated": "2026-02-10T14:00:27.566+00:00",
+        "Status": "active",
+        "Medicine": [
+            "03821125"
+        ],
+        "text": "Jatrosom 20mg 100 Tbl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1761834945957",
+        "ID": "cfsb1761834945957",
+        "Last Updated": "2026-02-10T14:03:46.064+00:00",
+        "Status": "",
+        "Medicine": [
+            "10264852"
+        ],
+        "text": "Amiodaron 200 mg\n* status = #active\n 100 Filmtbl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1761835301310",
+        "ID": "cfsb1761835301310",
+        "Last Updated": "2026-02-10T14:03:46.064+00:00",
+        "Status": "",
+        "Medicine": [
+            "15742072"
+        ],
+        "text": "Apixaban 5mg 100 Filmtbl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1761835482945",
+        "ID": "cfsb1761835482945",
+        "Last Updated": "2026-02-10T14:03:46.064+00:00",
+        "Status": "",
+        "Medicine": [
+            "10345072"
+        ],
+        "text": "Simvastatin 10 mg 100 Filmtbl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1759156300433",
+        "ID": "cfsb1759156300433",
+        "Last Updated": "2026-02-10T14:15:52.424+00:00",
+        "Status": "active",
+        "Medicine": [
+            "07211125"
+        ],
+        "text": "metex\u00ae 10mg 30 Tbl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/cfsb1759156889848",
+        "ID": "cfsb1759156889848",
+        "Last Updated": "2026-02-10T14:15:52.424+00:00",
+        "Status": "",
+        "Medicine": [
+            "04344044"
+        ],
+        "text": "Valproat - 1 A Pharma\u00ae 500mg 200 Retardtabl. N3",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/medication-7034824",
+        "ID": "medication-7034824",
+        "Last Updated": "2026-02-11T12:03:01.222+00:00",
+        "Status": "",
+        "Medicine": [],
+        "text": "Test medication",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131269103",
+        "ID": "131269103",
+        "Last Updated": "2026-02-13T11:53:07.022+00:00",
+        "Status": "",
+        "Medicine": [
+            "Azithromycin 250mg capsule (product)"
+        ],
+        "text": "",
+        "Contained": [
+            "Azithromycin (substance)"
+        ],
+        "Form": [
+            "Tablet dose form (qualifier value)"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131281337",
+        "ID": "131281337",
+        "Last Updated": "2026-02-21T18:58:07.539+00:00",
+        "Status": "",
+        "Medicine": [
+            "Amoxicillin 250 MG Oral Capsule"
+        ],
+        "text": "Amoxicillin 250 MG Oral Capsule",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131281338",
+        "ID": "131281338",
+        "Last Updated": "2026-02-21T18:58:07.539+00:00",
+        "Status": "",
+        "Medicine": [
+            "Erythromycin 250 MG Oral Tablet"
+        ],
+        "text": "Erythromycin 250 MG Oral Tablet",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131283985",
+        "ID": "131283985",
+        "Last Updated": "2026-02-23T10:03:32.980+00:00",
+        "Status": "",
+        "Medicine": [
+            "Oral Form Oxycodone (product)"
+        ],
+        "text": "",
+        "Contained": [
+            "Oxycodone (substance)"
+        ],
+        "Form": [
+            "Tablet dose form (qualifier value)"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131286270",
+        "ID": "131286270",
+        "Last Updated": "2026-02-24T16:28:51.459+00:00",
+        "Status": "",
+        "Medicine": [
+            "LASIX*25MG 30 CPR",
+            "RESERPINA E DIURETICI"
+        ],
+        "text": "",
+        "Contained": [],
+        "Form": [
+            "Pill"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131286867",
+        "ID": "131286867",
+        "Last Updated": "2026-02-25T03:33:57.529+00:00",
+        "Status": "active",
+        "Medicine": [
+            "Medicinal product"
+        ],
+        "text": "Medicinal product",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131286921",
+        "ID": "131286921",
+        "Last Updated": "2026-02-25T06:32:50.037+00:00",
+        "Status": "active",
+        "Medicine": [
+            "Medicinal product"
+        ],
+        "text": "Medicinal product",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131289255",
+        "ID": "131289255",
+        "Last Updated": "2026-02-26T18:31:47.497+00:00",
+        "Status": "",
+        "Medicine": [
+            "Amoxicillin 250 MG Oral Capsule"
+        ],
+        "text": "Amoxicillin 250 MG Oral Capsule",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131289256",
+        "ID": "131289256",
+        "Last Updated": "2026-02-26T18:31:47.497+00:00",
+        "Status": "",
+        "Medicine": [
+            "Erythromycin 250 MG Oral Tablet"
+        ],
+        "text": "Erythromycin 250 MG Oral Tablet",
+        "Contained": [],
+        "Form": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Medication/131294124",
+        "ID": "131294124",
+        "Last Updated": "2026-03-02T14:21:22.199+00:00",
+        "Status": "",
+        "Medicine": [
+            "LASIX*25MG 30 CPR",
+            "RESERPINA E DIURETICI"
+        ],
+        "text": "",
+        "Contained": [],
+        "Form": [
+            "Pill"
+        ]
+    }
+]

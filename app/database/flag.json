@@ -1,0 +1,200 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131271235",
+        "ID": "131271235",
+        "Last Updated": "2026-02-13T18:13:08.879+00:00",
+        "Status": "active",
+        "Category": [
+            "clinical"
+        ],
+        "Code": [
+            "Other"
+        ],
+        "Patient": "Patient/131271200"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131313528",
+        "ID": "131313528",
+        "Last Updated": "2026-03-05T06:26:21.550+00:00",
+        "Status": "",
+        "Category": "",
+        "Code": "",
+        "Patient": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131317353",
+        "ID": "131317353",
+        "Last Updated": "2026-03-05T23:55:56.282+00:00",
+        "Status": "active",
+        "Category": [
+            "Clinical"
+        ],
+        "Code": [
+            "Clinical alert"
+        ],
+        "Patient": "Patient/90357063"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131317391",
+        "ID": "131317391",
+        "Last Updated": "2026-03-05T23:59:05.344+00:00",
+        "Status": "active",
+        "Category": [
+            "Clinical"
+        ],
+        "Code": [
+            "Clinical alert"
+        ],
+        "Patient": "Patient/90357063"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131900261",
+        "ID": "131900261",
+        "Last Updated": "2026-04-13T08:57:42.758+00:00",
+        "Status": "active",
+        "Category": "riesgo",
+        "Code": "Riesgo hemorr\ufffdgico",
+        "Patient": "Patient/131900248"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131900268",
+        "ID": "131900268",
+        "Last Updated": "2026-04-13T09:12:09.323+00:00",
+        "Status": "active",
+        "Category": "multirresistencia",
+        "Code": [
+            "Multidrug resistant organism",
+            "Resistance to multiple antibiotics"
+        ],
+        "Patient": "Patient/131900248"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131900361",
+        "ID": "131900361",
+        "Last Updated": "2026-04-13T10:27:07.637+00:00",
+        "Status": "active",
+        "Category": "riesgo",
+        "Code": "Riesgo hemorr\u00e1gico",
+        "Patient": "Patient/131900344"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131900362",
+        "ID": "131900362",
+        "Last Updated": "2026-04-13T10:27:08.637+00:00",
+        "Status": "active",
+        "Category": "multirresistencia",
+        "Code": [
+            "Multidrug resistant organism",
+            "Resistance to multiple antibiotics"
+        ],
+        "Patient": "Patient/131900344"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131900363",
+        "ID": "131900363",
+        "Last Updated": "2026-04-13T10:27:09.638+00:00",
+        "Status": "active",
+        "Category": "aislamiento",
+        "Code": "Aislamiento de contacto",
+        "Patient": "Patient/131900344"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131996651",
+        "ID": "131996651",
+        "Last Updated": "2026-05-01T03:38:51.920+00:00",
+        "Status": "active",
+        "Category": "",
+        "Code": "High Risk: Social Isolation",
+        "Patient": "Patient/fh-full-001"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/131996689",
+        "ID": "131996689",
+        "Last Updated": "2026-05-01T03:40:23.222+00:00",
+        "Status": "active",
+        "Category": "",
+        "Code": "High Risk: Social Isolation",
+        "Patient": "Patient/fh-full-002"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023002",
+        "ID": "132023002",
+        "Last Updated": "2026-05-09T10:02:38.965+00:00",
+        "Status": "active",
+        "Category": "fall-risk",
+        "Code": "fall-risk: high - Confusion + elderly",
+        "Patient": "Patient/132022894"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023003",
+        "ID": "132023003",
+        "Last Updated": "2026-05-09T10:02:39.964+00:00",
+        "Status": "active",
+        "Category": "resuscitation",
+        "Code": "resuscitation: full - Full resuscitation",
+        "Patient": "Patient/132022894"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023100",
+        "ID": "132023100",
+        "Last Updated": "2026-05-09T10:04:16.964+00:00",
+        "Status": "active",
+        "Category": "fall-risk",
+        "Code": "fall-risk: moderate - Oedema + diuretics",
+        "Patient": "Patient/132023004"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023101",
+        "ID": "132023101",
+        "Last Updated": "2026-05-09T10:04:17.965+00:00",
+        "Status": "active",
+        "Category": "resuscitation",
+        "Code": "resuscitation: full - Full resuscitation",
+        "Patient": "Patient/132023004"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023194",
+        "ID": "132023194",
+        "Last Updated": "2026-05-09T10:05:50.985+00:00",
+        "Status": "active",
+        "Category": "fall-risk",
+        "Code": "fall-risk: low - Mobilising independently",
+        "Patient": "Patient/132023102"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023195",
+        "ID": "132023195",
+        "Last Updated": "2026-05-09T10:05:51.984+00:00",
+        "Status": "active",
+        "Category": "resuscitation",
+        "Code": "resuscitation: full - Full resuscitation",
+        "Patient": "Patient/132023102"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023268",
+        "ID": "132023268",
+        "Last Updated": "2026-05-09T10:07:04.985+00:00",
+        "Status": "active",
+        "Category": "fall-risk",
+        "Code": "fall-risk: low - Independent",
+        "Patient": "Patient/132023196"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023269",
+        "ID": "132023269",
+        "Last Updated": "2026-05-09T10:07:05.985+00:00",
+        "Status": "active",
+        "Category": "resuscitation",
+        "Code": "resuscitation: full - Full resuscitation",
+        "Patient": "Patient/132023196"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Flag/132023334",
+        "ID": "132023334",
+        "Last Updated": "2026-05-09T10:08:10.985+00:00",
+        "Status": "active",
+        "Category": "resuscitation",
+        "Code": "resuscitation: full - Full resuscitation",
+        "Patient": "Patient/132023270"
+    }
+]

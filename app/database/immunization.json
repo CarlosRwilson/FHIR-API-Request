@@ -1,0 +1,402 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/105794688",
+        "ID": "105794688",
+        "Last Updated": "2026-02-10T17:48:37.700+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/testmartin"
+        },
+        "Ocurrence DateTime": "2023-11-10T15:00:00Z",
+        "Recorded": "2023-11-10T15:05:00Z",
+        "Primary Source": true,
+        "Lot Number": "COVID-MRNA-231110",
+        "Expiration Date": "2025-06-30",
+        "Site": [
+            "Regi\u00f3n deltoidea derecha"
+        ],
+        "Route": [
+            "V\u00eda intramuscular"
+        ],
+        "Dose Quantity": 0.3,
+        "Protocol Applied": "COVID-19 refuerzo"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/105794689",
+        "ID": "105794689",
+        "Last Updated": "2026-02-10T17:48:37.700+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/testmartin"
+        },
+        "Ocurrence DateTime": "2022-08-22T09:10:00Z",
+        "Recorded": "2022-08-22T09:20:00Z",
+        "Primary Source": true,
+        "Lot Number": "TDAP-220822",
+        "Expiration Date": "2025-12-31",
+        "Site": [
+            "Regi\u00f3n deltoidea izquierda"
+        ],
+        "Route": [
+            "V\u00eda intramuscular"
+        ],
+        "Dose Quantity": 0.5,
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/105794690",
+        "ID": "105794690",
+        "Last Updated": "2026-02-10T17:48:37.700+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/testmartin"
+        },
+        "Ocurrence DateTime": "2021-03-05T12:00:00Z",
+        "Recorded": "2021-03-05T12:10:00Z",
+        "Primary Source": true,
+        "Lot Number": "HEPB-210305",
+        "Expiration Date": "2024-09-30",
+        "Site": [
+            "Regi\u00f3n deltoidea derecha"
+        ],
+        "Route": [
+            "V\u00eda intramuscular"
+        ],
+        "Dose Quantity": 1,
+        "Protocol Applied": "Hepatitis B"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/105794691",
+        "ID": "105794691",
+        "Last Updated": "2026-02-10T17:48:37.700+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/testmartin"
+        },
+        "Ocurrence DateTime": "2019-09-18T08:45:00Z",
+        "Recorded": "2019-09-18T09:00:00Z",
+        "Primary Source": false,
+        "Lot Number": "MMRV-190918",
+        "Expiration Date": "2021-12-31",
+        "Site": [
+            "Muslo izquierdo"
+        ],
+        "Route": [
+            "V\u00eda subcut\u00e1nea"
+        ],
+        "Dose Quantity": 0.5,
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/131271225",
+        "ID": "131271225",
+        "Last Updated": "2026-02-13T18:12:58.875+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/131271200"
+        },
+        "Ocurrence DateTime": "2024-03-15T10:35:00Z",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/131273065",
+        "ID": "131273065",
+        "Last Updated": "2026-02-15T08:23:16.425+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/131273059"
+        },
+        "Ocurrence DateTime": "2022-10-15",
+        "Recorded": "",
+        "Primary Source": "",
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/131284165",
+        "ID": "131284165",
+        "Last Updated": "2026-02-23T16:15:56.818+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "https://example/Patient/058ade88-1219-4137-aeec-76d0733dba9a"
+        },
+        "Ocurrence DateTime": "2022-03-30T10:10:00+01:00",
+        "Recorded": "",
+        "Primary Source": "",
+        "Lot Number": "20",
+        "Expiration Date": "2022-03-01",
+        "Site": [
+            "left arm"
+        ],
+        "Route": [
+            "Injection, intra-abdominal"
+        ],
+        "Dose Quantity": 20,
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/131284331",
+        "ID": "131284331",
+        "Last Updated": "2026-02-23T18:26:34.682+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/131284321"
+        },
+        "Ocurrence DateTime": "2023-09-20",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/131287678",
+        "ID": "131287678",
+        "Last Updated": "2026-02-25T16:39:26.251+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/131287660"
+        },
+        "Ocurrence DateTime": "2023-10-15",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/131287679",
+        "ID": "131287679",
+        "Last Updated": "2026-02-25T16:39:26.251+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/131287660"
+        },
+        "Ocurrence DateTime": "2022-04-10",
+        "Recorded": "",
+        "Primary Source": "",
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-afa6-ea763aa43736",
+        "ID": "e961e7a2-603c-1a8c-afa6-ea763aa43736",
+        "Last Updated": "2026-02-28T06:54:00.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2017-08-31T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-3f0b-a2ffd611e656",
+        "ID": "e961e7a2-603c-1a8c-3f0b-a2ffd611e656",
+        "Last Updated": "2026-02-28T06:54:01.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2019-09-05T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-a9ea-c4e92e9381c5",
+        "ID": "e961e7a2-603c-1a8c-a9ea-c4e92e9381c5",
+        "Last Updated": "2026-02-28T06:54:02.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2021-04-01T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-7ed7-32122cbaca4b",
+        "ID": "e961e7a2-603c-1a8c-7ed7-32122cbaca4b",
+        "Last Updated": "2026-02-28T06:54:03.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2021-04-22T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-4ff7-c235f0c3fa5f",
+        "ID": "e961e7a2-603c-1a8c-4ff7-c235f0c3fa5f",
+        "Last Updated": "2026-02-28T06:54:04.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2021-09-09T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-1ec3-f86c29d37395",
+        "ID": "e961e7a2-603c-1a8c-1ec3-f86c29d37395",
+        "Last Updated": "2026-02-28T06:54:05.902+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2023-08-17T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-2d3e-0c2ad2b71be0",
+        "ID": "e961e7a2-603c-1a8c-2d3e-0c2ad2b71be0",
+        "Last Updated": "2026-02-28T06:54:06.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2023-08-17T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-968c-6217e3ecfc76",
+        "ID": "e961e7a2-603c-1a8c-968c-6217e3ecfc76",
+        "Last Updated": "2026-02-28T06:54:07.902+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2024-08-22T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-aeef-88f08f94fb4e",
+        "ID": "e961e7a2-603c-1a8c-aeef-88f08f94fb4e",
+        "Last Updated": "2026-02-28T06:54:08.903+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2024-08-22T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Immunization/e961e7a2-603c-1a8c-e5d6-5d85da0b998e",
+        "ID": "e961e7a2-603c-1a8c-e5d6-5d85da0b998e",
+        "Last Updated": "2026-02-28T06:54:09.902+00:00",
+        "Status": "completed",
+        "Vaccine Code": "",
+        "Patient": {
+            "reference": "Patient/e961e7a2-603c-1a8c-469a-5ca3fe196692"
+        },
+        "Ocurrence DateTime": "2024-08-22T03:00:43-04:00",
+        "Recorded": "",
+        "Primary Source": true,
+        "Lot Number": "",
+        "Expiration Date": "",
+        "Site": [],
+        "Route": [],
+        "Dose Quantity": "",
+        "Protocol Applied": ""
+    }
+]

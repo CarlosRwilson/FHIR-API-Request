@@ -1,0 +1,496 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/131896579",
+        "ID": "131896579",
+        "Last Updated": "2026-04-10T15:55:37.648+00:00",
+        "Status": "",
+        "Identifier": "CHC-123456",
+        "Name": [
+            "Carlos"
+        ],
+        "Last Name": "Ramirez",
+        "Gender": "male",
+        "Line": [
+            "125 Community Way"
+        ],
+        "City": "Springfield",
+        "District": "",
+        "Postal Code": "01109",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [],
+        "Birthdate": "1974-05-12"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/131707439",
+        "ID": "131707439",
+        "Last Updated": "2026-05-19T11:48:04.781+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Maria"
+        ],
+        "Last Name": "Williams",
+        "Gender": "female",
+        "Line": [
+            "145 E 167th St, Room 4B"
+        ],
+        "City": "Bronx",
+        "District": "Morrisania",
+        "Postal Code": "10456",
+        "Country": "US",
+        "State": "NY",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "718-555-0198",
+                "use": "home"
+            }
+        ],
+        "Birthdate": "1972-06-15"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080089",
+        "ID": "132080089",
+        "Last Updated": "2026-05-22T11:11:51.976+00:00",
+        "Status": "",
+        "Identifier": "CNTMGS04H54A509R",
+        "Name": [
+            "Mariagiusy"
+        ],
+        "Last Name": "Cientanni",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "3396982587"
+            },
+            {
+                "system": "email",
+                "value": "m.cientanni@studenti.unisa.it"
+            }
+        ],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080098",
+        "ID": "132080098",
+        "Last Updated": "2026-05-22T11:32:48.412+00:00",
+        "Status": "",
+        "Identifier": "P1003",
+        "Name": [
+            "Rahul"
+        ],
+        "Last Name": "Sharma",
+        "Gender": "male",
+        "Line": [
+            "MG Road"
+        ],
+        "City": "Jaipur",
+        "District": "",
+        "Postal Code": "302001",
+        "Country": "India",
+        "State": "Rajasthan",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "9876543210",
+                "use": "mobile"
+            }
+        ],
+        "Birthdate": "1995-01-01"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080102",
+        "ID": "132080102",
+        "Last Updated": "2026-05-22T11:41:16.786+00:00",
+        "Status": "",
+        "Identifier": "4c6cb12b-1968-4fb9-a69b-c5b3e085ba1f",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080123",
+        "ID": "132080123",
+        "Last Updated": "2026-05-22T11:44:21.296+00:00",
+        "Status": "",
+        "Identifier": "pat-0001-qfgyhy",
+        "Name": [
+            "Ashleigh"
+        ],
+        "Last Name": "Hilll",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "+1-345-566-2496"
+            },
+            {
+                "system": "email",
+                "value": "ashleigh.hilll@synthetic.example"
+            },
+            {
+                "system": "email",
+                "value": "pavan.parekh@nuroblox.com"
+            },
+            {
+                "system": "email",
+                "value": "neelgami467work@gmail.com"
+            }
+        ],
+        "Birthdate": "2000-11-13"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080157",
+        "ID": "132080157",
+        "Last Updated": "2026-05-22T11:44:23.021+00:00",
+        "Status": "",
+        "Identifier": "pat-0003-ryzyrw",
+        "Name": [
+            "Christa"
+        ],
+        "Last Name": "Hane",
+        "Gender": "other",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "+1-326-209-2878"
+            },
+            {
+                "system": "email",
+                "value": "christa.hane@synthetic.example"
+            },
+            {
+                "system": "email",
+                "value": "pavan.parekh@nuroblox.com"
+            },
+            {
+                "system": "email",
+                "value": "neelgami467work@gmail.com"
+            }
+        ],
+        "Birthdate": "1978-08-02"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080174",
+        "ID": "132080174",
+        "Last Updated": "2026-05-22T11:44:24.024+00:00",
+        "Status": "",
+        "Identifier": "pat-0004-cknkvp",
+        "Name": [
+            "Orin"
+        ],
+        "Last Name": "Mills",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "+1-646-609-6785"
+            },
+            {
+                "system": "email",
+                "value": "orin.mills@synthetic.example"
+            },
+            {
+                "system": "email",
+                "value": "pavan.parekh@nuroblox.com"
+            },
+            {
+                "system": "email",
+                "value": "neelgami467work@gmail.com"
+            }
+        ],
+        "Birthdate": "1993-05-23"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080203",
+        "ID": "132080203",
+        "Last Updated": "2026-05-22T11:45:25.678+00:00",
+        "Status": "",
+        "Identifier": "2b19b705-8da1-4828-9eee-27c8154ea602",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080205",
+        "ID": "132080205",
+        "Last Updated": "2026-05-22T11:45:27.929+00:00",
+        "Status": "",
+        "Identifier": "P1006",
+        "Name": [
+            "Rahul"
+        ],
+        "Last Name": "Sharma",
+        "Gender": "male",
+        "Line": [
+            "MG Road"
+        ],
+        "City": "Jaipur",
+        "District": "",
+        "Postal Code": "302001",
+        "Country": "India",
+        "State": "Rajasthan",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "9876543210",
+                "use": "mobile"
+            }
+        ],
+        "Birthdate": "1995-01-01"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080206",
+        "ID": "132080206",
+        "Last Updated": "2026-05-22T11:45:28.879+00:00",
+        "Status": "",
+        "Identifier": "43077169-d8a8-44e4-b655-1fc1d746d430",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080214",
+        "ID": "132080214",
+        "Last Updated": "2026-05-22T11:45:51.427+00:00",
+        "Status": "",
+        "Identifier": "658b8f97-5b85-4b4c-bef5-4dc62f86c438",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080216",
+        "ID": "132080216",
+        "Last Updated": "2026-05-22T11:45:54.741+00:00",
+        "Status": "",
+        "Identifier": "5743f7ce-049b-4ea8-ac97-1a5692b45147",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080228",
+        "ID": "132080228",
+        "Last Updated": "2026-05-22T11:50:58.549+00:00",
+        "Status": "",
+        "Identifier": "e72fedf9-6384-442a-b12a-66b3dc6bb2cf",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080231",
+        "ID": "132080231",
+        "Last Updated": "2026-05-22T11:51:02.213+00:00",
+        "Status": "",
+        "Identifier": "e473e135-2f40-4b65-a300-ac75941dd82b",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080239",
+        "ID": "132080239",
+        "Last Updated": "2026-05-22T11:56:53.112+00:00",
+        "Status": "",
+        "Identifier": "P1007",
+        "Name": [
+            "Rahul"
+        ],
+        "Last Name": "Sharma",
+        "Gender": "male",
+        "Line": [
+            "MG Road"
+        ],
+        "City": "Jaipur",
+        "District": "",
+        "Postal Code": "302001",
+        "Country": "India",
+        "State": "Rajasthan",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "9876543210",
+                "use": "mobile"
+            }
+        ],
+        "Birthdate": "1995-01-01"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080241",
+        "ID": "132080241",
+        "Last Updated": "2026-05-22T11:57:58.044+00:00",
+        "Status": "",
+        "Identifier": "22d1970f-5892-4347-9884-5ce15c5867ad",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080243",
+        "ID": "132080243",
+        "Last Updated": "2026-05-22T11:58:01.412+00:00",
+        "Status": "",
+        "Identifier": "03932556-b6f2-45eb-8ee3-9939f19dc3a3",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080253",
+        "ID": "132080253",
+        "Last Updated": "2026-05-22T12:01:26.544+00:00",
+        "Status": "",
+        "Identifier": "ce6edba6-9fdc-44d1-a3fa-16fe471abefd",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Patient/132080255",
+        "ID": "132080255",
+        "Last Updated": "2026-05-22T12:01:29.803+00:00",
+        "Status": "",
+        "Identifier": "69f63bff-8a04-49f0-8648-9fd3e3106690",
+        "Name": [
+            "TestGiven"
+        ],
+        "Last Name": "TestFamily",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": ""
+    }
+]

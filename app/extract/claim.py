@@ -35,7 +35,8 @@ def extract_claim(json_file: str) -> None:
 
         role = extract_display(first_team.get('role', {}))
 
-        diagnosis = extract_display(resource.get('diagnosis', []))
+        first_diagnosis = first_or_empty(resource.get('diagnosis', []))
+        diagnosis = extract_display(first_diagnosis)
 
         item = resource.get('item', [])
         first_item = first_or_empty(item)

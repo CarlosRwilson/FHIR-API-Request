@@ -1,0 +1,202 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290044",
+        "ID": "131290044",
+        "Last Updated": "2026-02-28T03:27:17.672+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290043",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290054",
+        "ID": "131290054",
+        "Last Updated": "2026-02-28T03:28:48.260+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290053",
+        "Patient": "Patient/131289914",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290099",
+        "ID": "131290099",
+        "Last Updated": "2026-02-28T03:40:11.261+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290098",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290104",
+        "ID": "131290104",
+        "Last Updated": "2026-02-28T03:41:34.164+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290103",
+        "Patient": "Patient/131289914",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290123",
+        "ID": "131290123",
+        "Last Updated": "2026-02-28T03:55:58.083+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290122",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290127",
+        "ID": "131290127",
+        "Last Updated": "2026-02-28T04:08:14.049+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290126",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290147",
+        "ID": "131290147",
+        "Last Updated": "2026-02-28T04:37:30.325+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290146",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290165",
+        "ID": "131290165",
+        "Last Updated": "2026-02-28T05:37:33.616+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290164",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290179",
+        "ID": "131290179",
+        "Last Updated": "2026-02-28T05:54:57.589+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290178",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290187",
+        "ID": "131290187",
+        "Last Updated": "2026-02-28T06:01:58.728+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290186",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131290195",
+        "ID": "131290195",
+        "Last Updated": "2026-02-28T06:18:49.981+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131290194",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291741",
+        "ID": "131291741",
+        "Last Updated": "2026-03-02T00:28:51.251+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291740",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291751",
+        "ID": "131291751",
+        "Last Updated": "2026-03-02T00:38:38.617+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291750",
+        "Patient": "Patient/131291744",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291754",
+        "ID": "131291754",
+        "Last Updated": "2026-03-02T00:42:36.168+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291753",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291757",
+        "ID": "131291757",
+        "Last Updated": "2026-03-02T00:46:29.135+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291756",
+        "Patient": "Patient/131291744",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291779",
+        "ID": "131291779",
+        "Last Updated": "2026-03-02T01:12:37.339+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291778",
+        "Patient": "Patient/131291771",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291804",
+        "ID": "131291804",
+        "Last Updated": "2026-03-02T01:44:37.468+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291803",
+        "Patient": "Patient/131291793",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131291851",
+        "ID": "131291851",
+        "Last Updated": "2026-03-02T05:05:14.912+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131291850",
+        "Patient": "Patient/131291786",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131294505",
+        "ID": "131294505",
+        "Last Updated": "2026-03-02T14:51:12.159+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131294504",
+        "Patient": "Patient/131294498",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/AppointmentResponse/131295877",
+        "ID": "131295877",
+        "Last Updated": "2026-03-02T16:44:48.021+00:00",
+        "Status": "",
+        "Appointment": "Appointment/131295875",
+        "Patient": "Patient/131289953",
+        "Paticipant Status": "accepted",
+        "Comment": "Cita confirmada. Pres\u00e9ntese 20 min antes con documento y carn\u00e9."
+    }
+]

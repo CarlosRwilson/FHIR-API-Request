@@ -54,6 +54,7 @@ def extract_condition(json_file: str) -> None:
             'Practitioner': practitioner,
             'Note': note
         }
+        
         condition_data.append(condition_dict)
     save_json(condition_data, 'condition.json')
 

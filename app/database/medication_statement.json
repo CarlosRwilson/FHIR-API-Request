@@ -1,0 +1,282 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836474",
+        "ID": "123836474",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            " salbutamol 100micrograms/inhaler "
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "asthma (disorder)"
+        ],
+        "Dosage": "2 puffs every 4 hours as needed"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836481",
+        "ID": "123836481",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "aspirin 81mg e/c tablet "
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "atrial fibrillation (disorder)"
+        ],
+        "Dosage": "once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836482",
+        "ID": "123836482",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "beclomethasone dipropionate 40mcg aerosol"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "asthma (disorder)"
+        ],
+        "Dosage": "2 puffs twice daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836483",
+        "ID": "123836483",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "carvedilol 25 mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "hypertension (disorder)"
+        ],
+        "Dosage": "twice daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836484",
+        "ID": "123836484",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "chlortalidone 15 mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "hypertension (disorder)"
+        ],
+        "Dosage": "once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836485",
+        "ID": "123836485",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "citalopram 20 mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "depression (disorder)"
+        ],
+        "Dosage": "once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836486",
+        "ID": "123836486",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "gabapentin 600mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "neuropathic pain (disorder)"
+        ],
+        "Dosage": "twice daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836488",
+        "ID": "123836488",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "insulin glargine 100units/mL injection"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "diabetes (disorder)"
+        ],
+        "Dosage": "28 units before bed"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836489",
+        "ID": "123836489",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "losartan 100mg + hydrochlorothiazide 12.5mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "hypertension (disorder)"
+        ],
+        "Dosage": "once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836490",
+        "ID": "123836490",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "metformin 1000mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "diabetes (disorder)"
+        ],
+        "Dosage": "1 tab twice daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836492",
+        "ID": "123836492",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "naproxen 500mg e/c tablet"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "rheumatoid arthritis (disorder)"
+        ],
+        "Dosage": "1 tab twice daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836493",
+        "ID": "123836493",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "omeprazole 40mg e/c tablet"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "GERD (disorder)"
+        ],
+        "Dosage": "1 tab once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836494",
+        "ID": "123836494",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "prednisone 20mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "asthma (disorder)"
+        ],
+        "Dosage": "2 tabs once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836495",
+        "ID": "123836495",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "simvastatin 40mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "high cholesterol"
+        ],
+        "Dosage": "1 tab once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836496",
+        "ID": "123836496",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "terbinafine 250mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "onychomycosis"
+        ],
+        "Dosage": "1 tab once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836497",
+        "ID": "123836497",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "zolpidem 5mg sublingual tablet"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "insomnia"
+        ],
+        "Dosage": "1 tab before bed"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836498",
+        "ID": "123836498",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "lisinopril 20mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "hypertension (disorder)"
+        ],
+        "Dosage": "once daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836500",
+        "ID": "123836500",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "isosorbide mononitrate 20mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "angina"
+        ],
+        "Dosage": "once daily at bedtime"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/123836501",
+        "ID": "123836501",
+        "Last Updated": "2026-02-11T21:38:12.835+00:00",
+        "Status": "active",
+        "Medication": [
+            "buspirone 5mg"
+        ],
+        "Patient": "Patient/123836453",
+        "Reason Code": [
+            "anxiety disorder"
+        ],
+        "Dosage": "3 times daily"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationStatement/131271379",
+        "ID": "131271379",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "active",
+        "Medication": [
+            " salbutamol 100micrograms/inhaler "
+        ],
+        "Patient": "Patient/131271362",
+        "Reason Code": [
+            "asthma (disorder)"
+        ],
+        "Dosage": "2 puffs every 4 hours as needed"
+    }
+]

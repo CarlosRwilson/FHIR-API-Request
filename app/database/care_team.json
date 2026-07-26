@@ -1,0 +1,448 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/131431291",
+        "ID": "131431291",
+        "Last Updated": "2026-03-21T15:11:28.398+00:00",
+        "Status": "inactive",
+        "Period": {
+            "start": "2009-08-19T05:28:51-04:00",
+            "end": "2011-08-07T05:28:51-04:00"
+        },
+        "Participants": [
+            "Mr. Alvin56 Goldner995",
+            "Dr. Hoa730 Wiegand701",
+            "METROWEST MEDICAL CENTER"
+        ],
+        "Role": [
+            "Patient",
+            "Person in the healthcare environment (person)",
+            "Healthcare related organization (qualifier value)"
+        ],
+        "Reason Code": [
+            "Acute bronchitis (disorder)"
+        ],
+        "Organization": "METROWEST MEDICAL CENTER"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/7aaa6347-66cf-91f6-8e72-1f2257347ce8",
+        "ID": "7aaa6347-66cf-91f6-8e72-1f2257347ce8",
+        "Last Updated": "2026-03-22T05:30:33.134+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1978-06-13T11:50:50-04:00"
+        },
+        "Participants": [
+            "Mr. Abel832 Kip442 Wolff180",
+            "Dr. Carisa395 Kutch271",
+            "LAWRENCE GENERAL HOSPITAL"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "LAWRENCE GENERAL HOSPITAL"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/1ec790f8-9b26-3556-a72c-069964fc3ffc",
+        "ID": "1ec790f8-9b26-3556-a72c-069964fc3ffc",
+        "Last Updated": "2026-03-22T05:31:01.134+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1999-05-29T01:50:50-04:00"
+        },
+        "Participants": [
+            "Mr. Abel832 Kip442 Wolff180",
+            "Dr. Marc757 Greenholt190",
+            "ZAHEEN MEDICAL CENTER LLC"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Prediabetes (finding)"
+        ],
+        "Organization": "ZAHEEN MEDICAL CENTER LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/131926803",
+        "ID": "131926803",
+        "Last Updated": "2026-04-15T15:41:35.180+00:00",
+        "Status": "active",
+        "Period": {},
+        "Participants": [
+            "Practitioner/131926801",
+            "Practitioner/131926802",
+            "RelatedPerson/131926800"
+        ],
+        "Role": [
+            "Medical practitioner",
+            "Community health worker",
+            "Family member"
+        ],
+        "Reason Code": [],
+        "Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/6391beb5-0af8-7fee-27cd-252c49062807",
+        "ID": "6391beb5-0af8-7fee-27cd-252c49062807",
+        "Last Updated": "2026-04-24T11:26:46.830+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1986-11-22T06:26:15+02:00"
+        },
+        "Participants": [
+            "Mr. Earle679 Guy979 Haag279",
+            "Dr. Otha286 Roberts511",
+            "NEW ENGLAND REHABILITATION SERVICES OF CENTRAL MASSACHUSETTS INC"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "NEW ENGLAND REHABILITATION SERVICES OF CENTRAL MASSACHUSETTS INC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/335609c0-c6ae-4828-0275-325a62467519",
+        "ID": "335609c0-c6ae-4828-0275-325a62467519",
+        "Last Updated": "2026-04-24T11:27:01.417+00:00",
+        "Status": "inactive",
+        "Period": {
+            "start": "2020-12-25T20:47:03+02:00",
+            "end": "2020-12-25T21:57:50+02:00"
+        },
+        "Participants": [
+            "Emmett200 Major265 Rippin620",
+            "Dr. Laurena366 Anderson154",
+            "NORTHEAST BEHAVIORAL HEALTH LLC"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "NORTHEAST BEHAVIORAL HEALTH LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/975acd01-5212-62d3-7eea-614e1ffee038",
+        "ID": "975acd01-5212-62d3-7eea-614e1ffee038",
+        "Last Updated": "2026-04-24T11:27:01.417+00:00",
+        "Status": "inactive",
+        "Period": {
+            "start": "2020-12-25T21:57:50+02:00",
+            "end": "2021-01-20T01:57:50+02:00"
+        },
+        "Participants": [
+            "Emmett200 Major265 Rippin620",
+            "Dr. Laurena366 Anderson154",
+            "NORTHEAST BEHAVIORAL HEALTH LLC"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "NORTHEAST BEHAVIORAL HEALTH LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/3aec913a-b543-df88-fb98-4e34be965e00",
+        "ID": "3aec913a-b543-df88-fb98-4e34be965e00",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1946-04-05T08:55:08+02:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Latasha666 Fay398",
+            "NORWOOD HOSPITAL"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "NORWOOD HOSPITAL"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/9d143bcb-c480-0ca4-14fc-0c16595c5fb0",
+        "ID": "9d143bcb-c480-0ca4-14fc-0c16595c5fb0",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1977-11-28T12:55:08+02:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Gisele901 Lehner980",
+            "VA Boston Healthcare System, West Roxbury Campus"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "VA Boston Healthcare System, West Roxbury Campus"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/19eade92-617c-6810-bf30-5051d7765c22",
+        "ID": "19eade92-617c-6810-bf30-5051d7765c22",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1985-09-23T13:55:08+03:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Gisele901 Lehner980",
+            "VA Boston Healthcare System, West Roxbury Campus"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Essential hypertension (disorder)"
+        ],
+        "Organization": "VA Boston Healthcare System, West Roxbury Campus"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/91f4cedb-3c4a-1a8e-ed4c-93a2c41a6523",
+        "ID": "91f4cedb-3c4a-1a8e-ed4c-93a2c41a6523",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1995-03-13T15:50:08+02:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Gisele901 Lehner980",
+            "VA Boston Healthcare System, West Roxbury Campus"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "VA Boston Healthcare System, West Roxbury Campus"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/cd064ca7-efb9-9a99-0e30-a3101bd75279",
+        "ID": "cd064ca7-efb9-9a99-0e30-a3101bd75279",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "inactive",
+        "Period": {
+            "start": "2003-09-24T13:07:50+03:00",
+            "end": "2005-08-28T13:07:50+03:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Gisele901 Lehner980",
+            "VA Boston Healthcare System, West Roxbury Campus"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Primary malignant neoplasm of colon (disorder)"
+        ],
+        "Organization": "VA Boston Healthcare System, West Roxbury Campus"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/db4f1865-bdc2-697b-031f-62fb7f79345f",
+        "ID": "db4f1865-bdc2-697b-031f-62fb7f79345f",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2009-02-16T13:25:08+02:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Gisele901 Lehner980",
+            "VA Boston Healthcare System, West Roxbury Campus"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Neoplasm of prostate (disorder)"
+        ],
+        "Organization": "VA Boston Healthcare System, West Roxbury Campus"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/469a5d93-99c0-b60a-70f1-29da00f0554b",
+        "ID": "469a5d93-99c0-b60a-70f1-29da00f0554b",
+        "Last Updated": "2026-04-24T11:29:59.259+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2007-02-19T12:55:08+02:00"
+        },
+        "Participants": [
+            "Mr. Jorge203 Hayes766",
+            "Dr. Gisele901 Lehner980",
+            "VA Boston Healthcare System, West Roxbury Campus"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Hyperlipidemia (disorder)"
+        ],
+        "Organization": "VA Boston Healthcare System, West Roxbury Campus"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/9f966202-7539-87ac-c265-350542994712",
+        "ID": "9f966202-7539-87ac-c265-350542994712",
+        "Last Updated": "2026-04-24T11:30:51.721+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2008-10-21T04:54:35+03:00"
+        },
+        "Participants": [
+            "Mr. Kelvin159 Sal878 Pacocha935",
+            "Dr. Kristopher775 Schiller186",
+            "PRIMARY CARE FOR ADULTS PLLC"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Prediabetes (finding)"
+        ],
+        "Organization": "PRIMARY CARE FOR ADULTS PLLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/21fb43d9-b47a-e812-b1eb-5d626831a174",
+        "ID": "21fb43d9-b47a-e812-b1eb-5d626831a174",
+        "Last Updated": "2026-04-24T11:30:51.721+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2009-11-17T03:54:35+02:00"
+        },
+        "Participants": [
+            "Mr. Kelvin159 Sal878 Pacocha935",
+            "Dr. Luis Miguel102 Estrada938",
+            "ENCOMPASS HEALTH BRAINTREE HOSPITAL OF BRAINTREE"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Hyperlipidemia (disorder)"
+        ],
+        "Organization": "ENCOMPASS HEALTH BRAINTREE HOSPITAL OF BRAINTREE"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/90b4d05c-07a1-a3f7-0bdc-51284d4017c8",
+        "ID": "90b4d05c-07a1-a3f7-0bdc-51284d4017c8",
+        "Last Updated": "2026-04-24T11:30:51.721+00:00",
+        "Status": "inactive",
+        "Period": {
+            "start": "2022-10-23T04:54:35+03:00",
+            "end": "2022-12-29T03:54:35+02:00"
+        },
+        "Participants": [
+            "Mr. Kelvin159 Sal878 Pacocha935",
+            "Dr. Adela471 M\ufffdndez913",
+            "TIMOTHY DANIELS HOUSE"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Concussion with no loss of consciousness (disorder)"
+        ],
+        "Organization": "TIMOTHY DANIELS HOUSE"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/e54a506f-4999-6a2b-27a8-5dfb7caad1ba",
+        "ID": "e54a506f-4999-6a2b-27a8-5dfb7caad1ba",
+        "Last Updated": "2026-04-24T11:30:51.721+00:00",
+        "Status": "inactive",
+        "Period": {
+            "start": "2018-10-23T06:49:54+03:00",
+            "end": "2018-12-25T03:54:35+02:00"
+        },
+        "Participants": [
+            "Mr. Kelvin159 Sal878 Pacocha935",
+            "Dr. Adela471 M\ufffdndez913",
+            "TIMOTHY DANIELS HOUSE"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Concussion injury of brain (disorder)"
+        ],
+        "Organization": "TIMOTHY DANIELS HOUSE"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/fb3248b0-85b3-a54f-df77-ac89a9addb26",
+        "ID": "fb3248b0-85b3-a54f-df77-ac89a9addb26",
+        "Last Updated": "2026-04-24T11:30:59.011+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2025-11-30T18:47:55+02:00"
+        },
+        "Participants": [
+            "Otto672 Lindsay928 Koelpin146",
+            "Dr. Michel472 Zulauf375",
+            "LEMUEL SHATTUCK HOSPITAL"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [],
+        "Organization": "LEMUEL SHATTUCK HOSPITAL"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CareTeam/a1110c88-a5d8-d1fd-123d-db5f6d87ed25",
+        "ID": "a1110c88-a5d8-d1fd-123d-db5f6d87ed25",
+        "Last Updated": "2026-04-24T11:32:52.720+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "1980-05-14T07:23:53+03:00"
+        },
+        "Participants": [
+            "Mrs. Renata373 Callie226 Considine820",
+            "Dr. Antwan357 Lindgren255",
+            "DR SOLOMON CARTER FULLER MENTAL HEALTH CENTER"
+        ],
+        "Role": [
+            "Patient",
+            "Healthcare professional (occupation)",
+            "Healthcare services (qualifier value)"
+        ],
+        "Reason Code": [
+            "Prediabetes (finding)"
+        ],
+        "Organization": "DR SOLOMON CARTER FULLER MENTAL HEALTH CENTER"
+    }
+]

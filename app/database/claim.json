@@ -1,0 +1,651 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131273009",
+        "ID": "131273009",
+        "Last Updated": "2026-02-16T05:25:31.360+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-06",
+            "end": "2026-03-09"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131273004",
+            "display": "Daniel Joseph Wilson"
+        },
+        "Insurer": {
+            "reference": "Organization/131273007",
+            "display": "Centene Corporation"
+        },
+        "Provider": {
+            "reference": "Organization/131273005",
+            "display": "Pacific Medical Center"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131273006",
+            "display": "Dr. Joseph Michael Young"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 26499.024388861966,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131273016",
+        "ID": "131273016",
+        "Last Updated": "2026-02-16T05:25:33.445+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-02-22",
+            "end": "2026-02-23"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131273011",
+            "display": "Jessica Lynn Anderson"
+        },
+        "Insurer": {
+            "reference": "Organization/131273014",
+            "display": "WellCare Health"
+        },
+        "Provider": {
+            "reference": "Organization/131273012",
+            "display": "North Texas Regional"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131273013",
+            "display": "Dr. Susan Kay King"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 32587.885729689304,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131273023",
+        "ID": "131273023",
+        "Last Updated": "2026-02-16T05:25:35.588+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-03",
+            "end": "2026-03-08"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131273018",
+            "display": "Matthew Thomas Taylor"
+        },
+        "Insurer": {
+            "reference": "Organization/131273021",
+            "display": "Oscar Health"
+        },
+        "Provider": {
+            "reference": "Organization/131273019",
+            "display": "Silicon Valley Medical"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131273020",
+            "display": "Dr. Thomas Edward Wright"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 40282.121533128295,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131274000",
+        "ID": "131274000",
+        "Last Updated": "2026-02-17T02:59:33.952+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-02-27",
+            "end": "2026-03-03"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131273995",
+            "display": "Marcus Alexander O'Brien"
+        },
+        "Insurer": {
+            "reference": "Organization/131273998",
+            "display": "Mountain States Insurance"
+        },
+        "Provider": {
+            "reference": "Organization/131273996",
+            "display": "Rocky Mountain Healthcare"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131273997",
+            "display": "Dr. Benjamin Scott Morrison"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 3975.604632437869,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131274007",
+        "ID": "131274007",
+        "Last Updated": "2026-02-17T02:59:41.291+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-02-22",
+            "end": "2026-02-26"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131274002",
+            "display": "Isabella Sofia Patel"
+        },
+        "Insurer": {
+            "reference": "Organization/131274005",
+            "display": "Lone Star Health Plan"
+        },
+        "Provider": {
+            "reference": "Organization/131274003",
+            "display": "Texas Hill Country Hospital"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131274004",
+            "display": "Dr. Sophia Michelle Ramirez"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 9867.812755412268,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131274014",
+        "ID": "131274014",
+        "Last Updated": "2026-02-17T02:59:48.687+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-02-23",
+            "end": "2026-02-27"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131274009",
+            "display": "Ethan James Nguyen"
+        },
+        "Insurer": {
+            "reference": "Organization/131274012",
+            "display": "Northwest Coverage Group"
+        },
+        "Provider": {
+            "reference": "Organization/131274010",
+            "display": "Columbia River Medical Center"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131274011",
+            "display": "Dr. Nathan Andrew Chen"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 10292.921198168553,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131274021",
+        "ID": "131274021",
+        "Last Updated": "2026-02-17T02:59:56.038+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-02-24",
+            "end": "2026-02-25"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131274016",
+            "display": "Ava Elizabeth Kowalski"
+        },
+        "Insurer": {
+            "reference": "Organization/131274019",
+            "display": "Southern Regional Insurance"
+        },
+        "Provider": {
+            "reference": "Organization/131274017",
+            "display": "Music City Regional Hospital"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131274018",
+            "display": "Dr. Emma Catherine O'Connor"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 10754.447921673827,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131273993",
+        "ID": "131273993",
+        "Last Updated": "2026-02-17T03:46:17.381+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-03"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "reference": "Patient/131273987",
+            "display": "Olivia Grace Chen"
+        },
+        "Insurer": {
+            "reference": "Organization/131273990",
+            "display": "Pacific Health Alliance"
+        },
+        "Provider": {
+            "reference": "Organization/131273988",
+            "display": "Pacific Northwest Medical"
+        },
+        "Priority": "",
+        "Practitioner": {
+            "reference": "Practitioner/131273989",
+            "display": "Dr. Rachel Marie Goldstein"
+        },
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {
+            "value": 5024.8591554907825,
+            "currency": "USD"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287724",
+        "ID": "131287724",
+        "Last Updated": "2026-02-25T17:02:44.727+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-01"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "johnone doeone"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287726",
+        "ID": "131287726",
+        "Last Updated": "2026-02-25T17:02:46.727+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-15"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "janetwo doetwo"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287728",
+        "ID": "131287728",
+        "Last Updated": "2026-02-25T17:02:48.727+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-15",
+            "end": "2026-03-15"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "johnthree doethree"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287730",
+        "ID": "131287730",
+        "Last Updated": "2026-02-25T17:02:50.726+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-01"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "janefour doefour"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287736",
+        "ID": "131287736",
+        "Last Updated": "2026-02-25T17:10:20.127+00:00",
+        "Status": "active",
+        "Serviced Period": {},
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "Test Patient"
+        },
+        "Insurer": {
+            "display": "Test Payer"
+        },
+        "Provider": {
+            "display": "Test Provider"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287737",
+        "ID": "131287737",
+        "Last Updated": "2026-02-25T17:10:41.077+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-06-30"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "johnone doeone"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Test Oncology Clinic"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287752",
+        "ID": "131287752",
+        "Last Updated": "2026-02-25T17:16:29.034+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-01"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "johnone doeone"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287754",
+        "ID": "131287754",
+        "Last Updated": "2026-02-25T17:16:31.027+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-15"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "janetwo doetwo"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287756",
+        "ID": "131287756",
+        "Last Updated": "2026-02-25T17:16:33.027+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-15",
+            "end": "2026-03-15"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "johnthree doethree"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287758",
+        "ID": "131287758",
+        "Last Updated": "2026-02-25T17:16:35.027+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-01"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "janefour doefour"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287760",
+        "ID": "131287760",
+        "Last Updated": "2026-02-25T17:20:16.905+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-01"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "johnone doeone"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Claim/131287762",
+        "ID": "131287762",
+        "Last Updated": "2026-02-25T17:20:18.906+00:00",
+        "Status": "active",
+        "Serviced Period": {
+            "start": "2026-03-01",
+            "end": "2026-03-15"
+        },
+        "Type": "",
+        "Use": "preauthorization",
+        "Patient": {
+            "display": "janetwo doetwo"
+        },
+        "Insurer": {
+            "display": "UHC"
+        },
+        "Provider": {
+            "display": "Happy Doctors Group"
+        },
+        "Priority": "",
+        "Practitioner": {},
+        "Role": "",
+        "Diagnosis": "",
+        "Category": "",
+        "Product Or Service": "",
+        "Location Concept": "",
+        "Net": {}
+    }
+]

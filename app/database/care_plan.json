@@ -1,0 +1,327 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131278187",
+        "ID": "131278187",
+        "Last Updated": "2026-02-20T02:27:19.152+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-01-26"
+        },
+        "Intent": "plan",
+        "Title": "Home Care Plan for Jane Smith",
+        "Description": "Non-skilled home care services",
+        "Patient": "Jane Smith",
+        "Category": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/pharyngitis-traj1-care-v4",
+        "ID": "pharyngitis-traj1-care-v4",
+        "Last Updated": "2026-02-22T18:59:11.503+00:00",
+        "Status": "active",
+        "Period": {},
+        "Intent": "plan",
+        "Title": "Integrative pharyngitis management plan for Minh Tran",
+        "Description": "Compromise plan: herbal gargling with Plectranthus amboinicus (hung chanh) tea for symptom relief combined with ENT specialist referral for evaluation of recurrent pharyngitis and possible tonsillectomy assessment. Honey-based soothing recommended. Follow-up in 2 weeks.",
+        "Patient": "Minh Tran",
+        "Category": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131284886",
+        "ID": "131284886",
+        "Last Updated": "2026-02-24T12:56:09.195+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-24",
+            "end": "2026-04-24"
+        },
+        "Intent": "plan",
+        "Title": "Home Health Plan of Care (CMS-485)",
+        "Description": "Skilled nursing for CHF management, diabetes education, and medication management",
+        "Patient": "Patient/131284885",
+        "Category": [
+            "Assessment and Plan of Treatment"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131285598",
+        "ID": "131285598",
+        "Last Updated": "2026-02-24T13:35:20.755+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2025-11-12"
+        },
+        "Intent": "plan",
+        "Title": "Behavioral Health Management Plan",
+        "Description": "Ongoing management of major depressive disorder and generalized anxiety. Goals: PHQ-9 below 5 within 6 months, reduce anxiety episodes, improve sleep quality.",
+        "Patient": "Patient/131284103",
+        "Category": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131284514",
+        "ID": "131284514",
+        "Last Updated": "2026-02-25T06:18:06.709+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-02-28"
+        },
+        "Intent": "plan",
+        "Title": "Therapy",
+        "Description": "provide therapy ",
+        "Patient": "mohan das client",
+        "Category": [
+            "Physical Therapy"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131284512",
+        "ID": "131284512",
+        "Last Updated": "2026-02-25T06:21:01.357+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-03-02"
+        },
+        "Intent": "plan",
+        "Title": "medical",
+        "Description": "provide medicine",
+        "Patient": "mohan das client",
+        "Category": [
+            "Mental Health"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131286930",
+        "ID": "131286930",
+        "Last Updated": "2026-02-25T06:40:01.119+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-26",
+            "end": "2026-03-05"
+        },
+        "Intent": "plan",
+        "Title": "Medical",
+        "Description": "",
+        "Patient": "mohan das client",
+        "Category": [
+            "Assess and Plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131286997",
+        "ID": "131286997",
+        "Last Updated": "2026-02-25T07:13:33.901+00:00",
+        "Status": "draft",
+        "Period": {
+            "start": "2026-02-20",
+            "end": "2026-02-19"
+        },
+        "Intent": "plan",
+        "Title": "Test",
+        "Description": "",
+        "Patient": "mohan das client",
+        "Category": [
+            "Substance Abuse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131286999",
+        "ID": "131286999",
+        "Last Updated": "2026-02-25T07:15:04.195+00:00",
+        "Status": "draft",
+        "Period": {
+            "start": "2026-02-20",
+            "end": "2026-02-27"
+        },
+        "Intent": "plan",
+        "Title": "Test2",
+        "Description": "",
+        "Patient": "mohan das client",
+        "Category": [
+            "Substance Abuse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131287006",
+        "ID": "131287006",
+        "Last Updated": "2026-02-25T07:24:21.417+00:00",
+        "Status": "on-hold",
+        "Period": {
+            "start": "2026-02-19",
+            "end": "2026-02-28"
+        },
+        "Intent": "plan",
+        "Title": "testlast",
+        "Description": "",
+        "Patient": "mohan das client",
+        "Category": [
+            "Physical Therapy"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131287008",
+        "ID": "131287008",
+        "Last Updated": "2026-02-25T07:35:53.978+00:00",
+        "Status": "draft",
+        "Period": {
+            "start": "2026-02-26",
+            "end": "2026-03-04"
+        },
+        "Intent": "plan",
+        "Title": "test3",
+        "Description": "",
+        "Patient": "mohan das client",
+        "Category": [
+            "Mental Health"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131287023",
+        "ID": "131287023",
+        "Last Updated": "2026-02-25T08:08:48.559+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-26",
+            "end": "2026-03-06"
+        },
+        "Intent": "plan",
+        "Title": "final",
+        "Description": "",
+        "Patient": "mohan das client",
+        "Category": [
+            "Physical Therapy"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289490",
+        "ID": "131289490",
+        "Last Updated": "2026-02-27T05:42:03.612+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-27T00:00:00+01:00"
+        },
+        "Intent": "plan",
+        "Title": "",
+        "Description": "",
+        "Patient": "Patient/131289482",
+        "Category": [
+            "oncological-treatment-qualification"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289497",
+        "ID": "131289497",
+        "Last Updated": "2026-02-27T05:43:12.970+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-27T00:00:00+01:00"
+        },
+        "Intent": "plan",
+        "Title": "",
+        "Description": "",
+        "Patient": "Patient/131289482",
+        "Category": [
+            "in-depth-diagnostic-plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289505",
+        "ID": "131289505",
+        "Last Updated": "2026-02-27T05:47:02.771+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-27T00:00:00+01:00"
+        },
+        "Intent": "plan",
+        "Title": "",
+        "Description": "",
+        "Patient": "Patient/131289482",
+        "Category": [
+            "radical-treatment-plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289507",
+        "ID": "131289507",
+        "Last Updated": "2026-02-27T05:48:27.032+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-27T00:00:00+01:00"
+        },
+        "Intent": "plan",
+        "Title": "",
+        "Description": "",
+        "Patient": "Patient/131289482",
+        "Category": [
+            "radical-treatment-plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289533",
+        "ID": "131289533",
+        "Last Updated": "2026-02-27T07:39:08.722+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-25",
+            "end": "2026-03-11"
+        },
+        "Intent": "plan",
+        "Title": "Medical",
+        "Description": "",
+        "Patient": "ankit client",
+        "Category": [
+            "Assess and Plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289548",
+        "ID": "131289548",
+        "Last Updated": "2026-02-27T09:47:28.266+00:00",
+        "Status": "active",
+        "Period": {
+            "start": "2026-02-20",
+            "end": "2026-02-28"
+        },
+        "Intent": "plan",
+        "Title": "mental therapy",
+        "Description": "",
+        "Patient": "ankit client",
+        "Category": [
+            "Assess and Plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131289626",
+        "ID": "131289626",
+        "Last Updated": "2026-02-27T12:55:45.640+00:00",
+        "Status": "draft",
+        "Period": {
+            "start": "2026-02-18",
+            "end": "2026-02-28"
+        },
+        "Intent": "plan",
+        "Title": "medicare",
+        "Description": "",
+        "Patient": "ankit d client",
+        "Category": [
+            "Assess and Plan"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/CarePlan/131290140",
+        "ID": "131290140",
+        "Last Updated": "2026-02-28T04:45:52.946+00:00",
+        "Status": "draft",
+        "Period": {
+            "start": "2026-02-12",
+            "end": "2026-02-28"
+        },
+        "Intent": "plan",
+        "Title": "test",
+        "Description": "",
+        "Patient": "ankit d client",
+        "Category": [
+            "Assess and Plan"
+        ]
+    }
+]

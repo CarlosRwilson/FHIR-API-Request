@@ -1,0 +1,462 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/T-123456791",
+        "ID": "T-123456791",
+        "Last Updated": "2026-02-10T13:37:36.357+00:00",
+        "Status": "",
+        "Identifier": "T-123456791",
+        "Name": "Ambulanz Innere Medizin",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/location-1061",
+        "ID": "location-1061",
+        "Last Updated": "2026-02-11T12:02:33.357+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "Boston",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/131271546",
+        "ID": "131271546",
+        "Last Updated": "2026-02-13T22:07:59.139+00:00",
+        "Status": "active",
+        "Identifier": "",
+        "Name": "Main Building",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/131273328",
+        "ID": "131273328",
+        "Last Updated": "2026-02-16T11:03:46.225+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "Emergency Room",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/131274035",
+        "ID": "131274035",
+        "Last Updated": "2026-02-17T04:59:26.580+00:00",
+        "Status": "active",
+        "Identifier": "",
+        "Name": "University Pain Clinic Associates PLLC",
+        "Line": [],
+        "City": "4160 JOHN R ST, Detroit",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "MI",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/131274038",
+        "ID": "131274038",
+        "Last Updated": "2026-02-17T05:07:33.885+00:00",
+        "Status": "active",
+        "Identifier": "",
+        "Name": "Mercy Health Physicians North Speciality Care LLC",
+        "Line": [],
+        "City": "1360 ARROWHEAD DR, Maumee",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "OH",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/131274054",
+        "ID": "131274054",
+        "Last Updated": "2026-02-17T06:55:59.348+00:00",
+        "Status": "active",
+        "Identifier": "",
+        "Name": "ENDEAVOR HEALTH MEDICAL GROUP",
+        "Line": [],
+        "City": "777 PARK W AVE",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "HIGHLAND PARK",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/0ae464b2-df90-3ad6-9ca9-9bda8981410c",
+        "ID": "0ae464b2-df90-3ad6-9ca9-9bda8981410c",
+        "Last Updated": "2026-02-17T10:51:09.131+00:00",
+        "Status": "active",
+        "Identifier": "0ae464b2-df90-3ad6-9ca9-9bda8981410c",
+        "Name": "GENTIVA HEALTH SERVICES",
+        "Line": [
+            "279 DALTON AVENUE, SUITE B"
+        ],
+        "City": "PITTSFIELD",
+        "District": "",
+        "Postal Code": "012013500",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "4134433525"
+            }
+        ],
+        "Position": {
+            "longitude": -73.22185917597403,
+            "latitude": 42.4606344
+        },
+        "Managing Organization": "GENTIVA HEALTH SERVICES"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/46bae24b-5caf-397a-a357-a0266bdd231b",
+        "ID": "46bae24b-5caf-397a-a357-a0266bdd231b",
+        "Last Updated": "2026-02-17T10:51:19.130+00:00",
+        "Status": "active",
+        "Identifier": "46bae24b-5caf-397a-a357-a0266bdd231b",
+        "Name": "HDH CORPORATION",
+        "Line": [
+            "126 MONUMENT ST"
+        ],
+        "City": "HAVERHILL",
+        "District": "",
+        "Postal Code": "018322527",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "9783731747"
+            }
+        ],
+        "Position": {
+            "longitude": -71.10946686154523,
+            "latitude": 42.78715445
+        },
+        "Managing Organization": "HDH CORPORATION"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/675953b0-3ca6-3f33-8e05-686cb96770c2",
+        "ID": "675953b0-3ca6-3f33-8e05-686cb96770c2",
+        "Last Updated": "2026-02-17T10:51:21.132+00:00",
+        "Status": "active",
+        "Identifier": "675953b0-3ca6-3f33-8e05-686cb96770c2",
+        "Name": "CENTER FOR DIGESTIVE WELLNESS PC",
+        "Line": [
+            "105 ERDMAN WAY"
+        ],
+        "City": "LEOMINSTER",
+        "District": "",
+        "Postal Code": "014531805",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "9785377552"
+            }
+        ],
+        "Position": {
+            "longitude": -71.75737313871981,
+            "latitude": 42.54685255
+        },
+        "Managing Organization": "CENTER FOR DIGESTIVE WELLNESS PC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/131274494",
+        "ID": "131274494",
+        "Last Updated": "2026-02-17T10:52:06.377+00:00",
+        "Status": "active",
+        "Identifier": "",
+        "Name": "Lake Obstetrics and Gynecology, INC",
+        "Line": [],
+        "City": "9500 Mentor Ave, Mentor",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "OH",
+        "Telecom": [],
+        "Position": {},
+        "Managing Organization": ""
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/e9e8a03e-b790-3418-873b-90c65e16e6c6",
+        "ID": "e9e8a03e-b790-3418-873b-90c65e16e6c6",
+        "Last Updated": "2026-02-17T10:52:19.131+00:00",
+        "Status": "active",
+        "Identifier": "e9e8a03e-b790-3418-873b-90c65e16e6c6",
+        "Name": "260 EASTHAMPTON ROAD OPERATING COMPANY LLC",
+        "Line": [
+            "260 EASTHAMPTON ROAD"
+        ],
+        "City": "HOLYOKE",
+        "District": "",
+        "Postal Code": "010401213",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "4135389733"
+            }
+        ],
+        "Position": {
+            "longitude": -72.646798,
+            "latitude": 42.226424
+        },
+        "Managing Organization": "260 EASTHAMPTON ROAD OPERATING COMPANY LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/fd380664-71df-3fc3-88ad-6f9ce91a9d7a",
+        "ID": "fd380664-71df-3fc3-88ad-6f9ce91a9d7a",
+        "Last Updated": "2026-02-17T10:52:21.132+00:00",
+        "Status": "active",
+        "Identifier": "fd380664-71df-3fc3-88ad-6f9ce91a9d7a",
+        "Name": "ISLAND HEALTH INC.",
+        "Line": [
+            "245 VINEYARD HAVEN-EDGARTOWN ROAD"
+        ],
+        "City": "EDGARTOWN",
+        "District": "",
+        "Postal Code": "025396941",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "5089399358"
+            }
+        ],
+        "Position": {
+            "longitude": -70.5300948008162,
+            "latitude": 41.395500350000006
+        },
+        "Managing Organization": "ISLAND HEALTH INC."
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/cc23922c-25a9-31a6-8b8c-ee1f04e30a41",
+        "ID": "cc23922c-25a9-31a6-8b8c-ee1f04e30a41",
+        "Last Updated": "2026-02-17T10:53:13.130+00:00",
+        "Status": "active",
+        "Identifier": "cc23922c-25a9-31a6-8b8c-ee1f04e30a41",
+        "Name": "LIFE CARE CENTER OF MERRIMACK VALLEY",
+        "Line": [
+            "80 BOSTON RD"
+        ],
+        "City": "NORTH BILLERICA",
+        "District": "",
+        "Postal Code": "018621034",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "9786672166"
+            }
+        ],
+        "Position": {
+            "longitude": -71.2948553,
+            "latitude": 42.5871093
+        },
+        "Managing Organization": "LIFE CARE CENTER OF MERRIMACK VALLEY"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/d7442f01-de85-3b62-9438-d8415bed999d",
+        "ID": "d7442f01-de85-3b62-9438-d8415bed999d",
+        "Last Updated": "2026-02-17T10:53:27.130+00:00",
+        "Status": "active",
+        "Identifier": "d7442f01-de85-3b62-9438-d8415bed999d",
+        "Name": "ESSEX PAVILION, LLC",
+        "Line": [
+            "876 FALMOUTH RD"
+        ],
+        "City": "HYANNIS",
+        "District": "",
+        "Postal Code": "026012322",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "5087756663"
+            }
+        ],
+        "Position": {
+            "longitude": -70.31909857281401,
+            "latitude": 41.6619029
+        },
+        "Managing Organization": "ESSEX PAVILION, LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/58246592-22f1-3637-a3f6-313557f27045",
+        "ID": "58246592-22f1-3637-a3f6-313557f27045",
+        "Last Updated": "2026-02-17T10:53:29.132+00:00",
+        "Status": "active",
+        "Identifier": "58246592-22f1-3637-a3f6-313557f27045",
+        "Name": "WESTFIELD HEALTHCARE, LLC",
+        "Line": [
+            "60 E SILVER ST"
+        ],
+        "City": "WESTFIELD",
+        "District": "",
+        "Postal Code": "010854434",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "4135625121"
+            }
+        ],
+        "Position": {
+            "longitude": -72.73956114707532,
+            "latitude": 42.1147598
+        },
+        "Managing Organization": "WESTFIELD HEALTHCARE, LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/993c5730-acf4-3771-97a7-ae3997a597cc",
+        "ID": "993c5730-acf4-3771-97a7-ae3997a597cc",
+        "Last Updated": "2026-02-17T10:53:53.132+00:00",
+        "Status": "active",
+        "Identifier": "993c5730-acf4-3771-97a7-ae3997a597cc",
+        "Name": "KD MEDICINE & WELLNESS PLLC",
+        "Line": [
+            "565 TURNPIKE ST STE 71"
+        ],
+        "City": "NORTH ANDOVER",
+        "District": "",
+        "Postal Code": "018455936",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "5086410235"
+            }
+        ],
+        "Position": {
+            "longitude": -71.11635234067887,
+            "latitude": 42.664934200000005
+        },
+        "Managing Organization": "KD MEDICINE & WELLNESS PLLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/dece5fa3-12c0-3c17-ac30-eeae950d6182",
+        "ID": "dece5fa3-12c0-3c17-ac30-eeae950d6182",
+        "Last Updated": "2026-02-17T10:53:59.131+00:00",
+        "Status": "active",
+        "Identifier": "dece5fa3-12c0-3c17-ac30-eeae950d6182",
+        "Name": "MILTON HC OPERATING LLC",
+        "Line": [
+            "1200 BRUSH HILL ROAD"
+        ],
+        "City": "MILTON",
+        "District": "",
+        "Postal Code": "021862337",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "6173330600"
+            }
+        ],
+        "Position": {
+            "longitude": -71.122659913074,
+            "latitude": 42.23073215
+        },
+        "Managing Organization": "MILTON HC OPERATING LLC"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/a601e138-7ad4-32e5-910f-f8d4fa8fbd51",
+        "ID": "a601e138-7ad4-32e5-910f-f8d4fa8fbd51",
+        "Last Updated": "2026-02-17T10:54:21.131+00:00",
+        "Status": "active",
+        "Identifier": "a601e138-7ad4-32e5-910f-f8d4fa8fbd51",
+        "Name": "Brockton Vet Center",
+        "Line": [
+            "1041L Pearl St."
+        ],
+        "City": "Brockton",
+        "District": "",
+        "Postal Code": "02301",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "508-580-2730 Or 508-580-2730"
+            }
+        ],
+        "Position": {
+            "longitude": -71.06661,
+            "latitude": 42.055134
+        },
+        "Managing Organization": "Brockton Vet Center"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Location/4f382f6e-619c-3d27-80d2-ab80cb5c0644",
+        "ID": "4f382f6e-619c-3d27-80d2-ab80cb5c0644",
+        "Last Updated": "2026-02-17T10:54:41.131+00:00",
+        "Status": "active",
+        "Identifier": "4f382f6e-619c-3d27-80d2-ab80cb5c0644",
+        "Name": "CAPE COD HEALTHCARE, INC.",
+        "Line": [
+            "460 W MAIN ST"
+        ],
+        "City": "HYANNIS",
+        "District": "",
+        "Postal Code": "026013855",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "5087903360"
+            }
+        ],
+        "Position": {
+            "longitude": -70.31279933758786,
+            "latitude": 41.64987207007028
+        },
+        "Managing Organization": "CAPE COD HEALTHCARE, INC."
+    }
+]

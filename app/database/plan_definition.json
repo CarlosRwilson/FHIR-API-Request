@@ -1,0 +1,294 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/131540917",
+        "ID": "131540917",
+        "Last Updated": "2026-03-29T09:07:58.680+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "Insurance Recommendation Logic",
+        "Type": [],
+        "Description": "",
+        "Library": [
+            "https://hapi.fhir.org/baseR4/Library/13158035"
+        ],
+        "Action Title": "Recommend Plan",
+        "Action Description": "Determine the best insurance plan based on age and conditions",
+        "Action Trigger": [
+            {
+                "type": "named-event",
+                "name": "recommend-plan"
+            }
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/131540864",
+        "ID": "131540864",
+        "Last Updated": "2026-03-29T10:19:41.693+00:00",
+        "Status": "active",
+        "Name": "InsuranceRecommendationPlan",
+        "Title": "Insurance Recommendation Logic",
+        "Type": [],
+        "Description": "",
+        "Library": [
+            "https://hapi.fhir.org/baseR4/Library/13158035"
+        ],
+        "Action Title": "Recommend Insurance Plan",
+        "Action Description": "Calculates the best plan based on patient age and conditions.",
+        "Action Trigger": [
+            {
+                "type": "named-event",
+                "name": "recommend-plan"
+            }
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/131540926",
+        "ID": "131540926",
+        "Last Updated": "2026-03-29T10:39:01.580+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "",
+        "Type": [],
+        "Description": "",
+        "Library": [
+            "https://hapi.fhir.org/baseR4/Library/YOUR_LIB_ID"
+        ],
+        "Action Title": "Recommend Plan",
+        "Action Description": "",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-antithyroid-antibody-schedule",
+        "ID": "aap-t21-antithyroid-antibody-schedule",
+        "Last Updated": "2026-04-18T19:43:48.227+00:00",
+        "Status": "active",
+        "Name": "AAPT21AntithyroidAntibodySchedule",
+        "Title": "AAP T21 Anti-Thyroid Antibody Screening Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Anti-thyroid antibody screening for Trisomy 21 patients per AAP guidelines. At least once in the first year of life. A positive result triggers a cadence change in the TSH screening schedule (see aap-t21-tsh-schedule).",
+        "Library": [],
+        "Action Title": "First-Year Anti-Thyroid Antibody Screen",
+        "Action Description": "Anti-thyroid antibody measurement at least once within the first year of life, unless a result already exists.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-cbc-schedule",
+        "ID": "aap-t21-cbc-schedule",
+        "Last Updated": "2026-04-18T19:43:49.226+00:00",
+        "Status": "active",
+        "Name": "AAPT21CBCSchedule",
+        "Title": "AAP T21 CBC Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Complete blood count for Trisomy 21 patients per AAP guidelines. Initial CBC by day 3 of life, then annually through age 21 to monitor for hematologic abnormalities.",
+        "Library": [],
+        "Action Title": "Newborn CBC",
+        "Action Description": "Complete blood count by day 3 of life.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-early-intervention-referral-schedule",
+        "ID": "aap-t21-early-intervention-referral-schedule",
+        "Last Updated": "2026-04-18T19:43:50.223+00:00",
+        "Status": "active",
+        "Name": "AAPT21EarlyInterventionReferralSchedule",
+        "Title": "AAP T21 Early Intervention Referral Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Early intervention referral for Trisomy 21 patients per AAP guidelines. All T21 patients should be referred to early intervention for speech, fine motor, or gross motor therapy before 3 years of age.",
+        "Library": [],
+        "Action Title": "Early Intervention Referral",
+        "Action Description": "Referral to early intervention for speech, fine motor, or gross motor therapy before 3 years of age.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-feeding-assessment-schedule",
+        "ID": "aap-t21-feeding-assessment-schedule",
+        "Last Updated": "2026-04-18T19:43:51.236+00:00",
+        "Status": "active",
+        "Name": "AAPT21FeedingAssessmentSchedule",
+        "Title": "AAP T21 Feeding Assessment Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Feeding assessment or video swallow study for Trisomy 21 patients per AAP guidelines. Indicated when marked hypotonia or underweight status (below 5th percentile weight-for-length or BMI) is documented. No specific time window \u00e2\u20ac\u201d applies whenever the clinical findings are present.",
+        "Library": [],
+        "Action Title": "Feeding Assessment / Video Swallow Study",
+        "Action Description": "Order feeding assessment when marked hypotonia or underweight is documented.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-hearing-assessment-schedule",
+        "ID": "aap-t21-hearing-assessment-schedule",
+        "Last Updated": "2026-04-18T19:43:52.223+00:00",
+        "Status": "active",
+        "Name": "AAPT21HearingAssessmentSchedule",
+        "Title": "AAP T21 Hearing Assessment Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Objective hearing assessment (e.g., ABR or OAE) for Trisomy 21 patients per AAP guidelines. All T21 patients should receive an objective hearing assessment within the first 6 months of life.",
+        "Library": [],
+        "Action Title": "Newborn Hearing Assessment",
+        "Action Description": "Objective hearing assessment (ABR or OAE) within the first 6 months of life.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-karyotype-schedule",
+        "ID": "aap-t21-karyotype-schedule",
+        "Last Updated": "2026-04-18T19:43:53.223+00:00",
+        "Status": "active",
+        "Name": "AAPT21KaryotypeSchedule",
+        "Title": "AAP T21 Karyotype Confirmation Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Karyotype analysis to confirm Trisomy 21 diagnosis per AAP guidelines. Should be performed prenatally where possible; if no prior karyotype result documenting Trisomy 21 exists, a single karyotype analysis should be performed at any point from the prenatal period through age 21.",
+        "Library": [],
+        "Action Title": "Confirmatory Karyotype Analysis",
+        "Action Description": "Order a karyotype analysis if no prior karyotype result documenting Trisomy 21 is recorded.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-ophthalmology-referral-schedule",
+        "ID": "aap-t21-ophthalmology-referral-schedule",
+        "Last Updated": "2026-04-18T19:43:54.223+00:00",
+        "Status": "active",
+        "Name": "AAPT21OphthalmologyReferralSchedule",
+        "Title": "AAP T21 Ophthalmology Referral Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Ophthalmology referral for Trisomy 21 patients per AAP guidelines. All T21 patients should be referred to ophthalmology by 6 months of age.",
+        "Library": [],
+        "Action Title": "Infant Ophthalmology Referral",
+        "Action Description": "Referral to ophthalmology by 6 months of age.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-tsh-schedule",
+        "ID": "aap-t21-tsh-schedule",
+        "Last Updated": "2026-04-18T19:43:55.224+00:00",
+        "Status": "active",
+        "Name": "AAPT21TSHSchedule",
+        "Title": "AAP T21 TSH Screening Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "TSH screening protocol for Trisomy 21 patients per AAP guidelines. Default annual cadence switches immediately to semi-annual (every 6 months) upon detection of anti-thyroid antibodies (SNOMED 165775009). All recurring screens use a +/-1 month window and stop at age 21.",
+        "Library": [],
+        "Action Title": "Newborn TSH Screen",
+        "Action Description": "Initial TSH screen within the first month of life.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/aap-t21-tte-schedule",
+        "ID": "aap-t21-tte-schedule",
+        "Last Updated": "2026-04-18T19:43:56.224+00:00",
+        "Status": "active",
+        "Name": "AAPT21TTESchedule",
+        "Title": "AAP T21 Transthoracic Echocardiogram Schedule",
+        "Type": [
+            "protocol"
+        ],
+        "Description": "Transthoracic echocardiogram for Trisomy 21 patients per AAP guidelines. All T21 patients should receive a TTE within the first month of life to evaluate for congenital heart defects.",
+        "Library": [],
+        "Action Title": "Newborn TTE",
+        "Action Description": "Transthoracic echocardiogram within the first month of life.",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/H2Q-MC-LZZT-ProtocolDesign",
+        "ID": "H2Q-MC-LZZT-ProtocolDesign",
+        "Last Updated": "2026-04-29T14:08:14.578+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "H2Q-MC-LZZT Protocol Data Return Plan",
+        "Type": [
+            "clinical-protocol"
+        ],
+        "Description": "",
+        "Library": [],
+        "Action Title": "Visit-1",
+        "Action Description": "Planned Visit [Visit-1]",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/H2Q-MC-LZZT-Study-Visit-1",
+        "ID": "H2Q-MC-LZZT-Study-Visit-1",
+        "Last Updated": "2026-04-29T14:08:14.734+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "H2Q-MC-LZZT Screening Visit",
+        "Type": [
+            "clinical-protocol"
+        ],
+        "Description": "",
+        "Library": [],
+        "Action Title": "Record Visit Date",
+        "Action Description": "",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/H2Q-MC-LZZT-Study-Visit-2",
+        "ID": "H2Q-MC-LZZT-Study-Visit-2",
+        "Last Updated": "2026-04-29T14:08:14.824+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "H2Q-MC-LZZT Visit 2",
+        "Type": [],
+        "Description": "",
+        "Library": [],
+        "Action Title": "Record Visit Date",
+        "Action Description": "",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/H2Q-MC-LZZT-Study-Visit-3",
+        "ID": "H2Q-MC-LZZT-Study-Visit-3",
+        "Last Updated": "2026-04-29T14:08:14.877+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "H2Q-MC-LZZT Baseline/First Study Treatment Visit",
+        "Type": [
+            "clinical-protocol"
+        ],
+        "Description": "",
+        "Library": [],
+        "Action Title": "Record Visit Date",
+        "Action Description": "",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/H2Q-MC-LZZT-Study-Visit-4",
+        "ID": "H2Q-MC-LZZT-Study-Visit-4",
+        "Last Updated": "2026-04-29T14:08:14.906+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "",
+        "Type": [],
+        "Description": "",
+        "Library": [],
+        "Action Title": "Record Visit Date",
+        "Action Description": "",
+        "Action Trigger": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/PlanDefinition/H2Q-MC-LZZT-Study-RT-15",
+        "ID": "H2Q-MC-LZZT-Study-RT-15",
+        "Last Updated": "2026-04-29T14:08:14.933+00:00",
+        "Status": "active",
+        "Name": "",
+        "Title": "",
+        "Type": [],
+        "Description": "",
+        "Library": [],
+        "Action Title": "Record Visit Date",
+        "Action Description": "",
+        "Action Trigger": []
+    }
+]

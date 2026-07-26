@@ -1,0 +1,322 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573240",
+        "ID": "131573240",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Warfarin 3mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2025-12-27"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573241",
+        "ID": "131573241",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Warfarin 3mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2025-11-27"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573243",
+        "ID": "131573243",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Ramipril 5mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2026-03-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573244",
+        "ID": "131573244",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Ramipril 5mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-12-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573245",
+        "ID": "131573245",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Ramipril 5mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-10-01"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573246",
+        "ID": "131573246",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Ramipril 5mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-07-03"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573248",
+        "ID": "131573248",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Simvastatin 20mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2026-03-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573249",
+        "ID": "131573249",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Simvastatin 20mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-12-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573250",
+        "ID": "131573250",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Simvastatin 20mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-10-01"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573251",
+        "ID": "131573251",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Simvastatin 20mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-07-03"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573253",
+        "ID": "131573253",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Metformin 500mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2026-03-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573254",
+        "ID": "131573254",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Metformin 500mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-12-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573255",
+        "ID": "131573255",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Metformin 500mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-10-01"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573256",
+        "ID": "131573256",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Metformin 500mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "90 days",
+        "Handed Over": "2025-07-03"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573258",
+        "ID": "131573258",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Ibuprofen 400mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "14 days",
+        "Handed Over": "2026-03-23"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573260",
+        "ID": "131573260",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Paracetamol 1g"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2026-03-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573261",
+        "ID": "131573261",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Paracetamol 1g"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2026-02-28"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573262",
+        "ID": "131573262",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Paracetamol 1g"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2026-01-29"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573263",
+        "ID": "131573263",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Paracetamol 1g"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2025-12-30"
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/MedicationDispense/131573265",
+        "ID": "131573265",
+        "Last Updated": "2026-03-30T16:19:54.921+00:00",
+        "Status": "completed",
+        "Medication Concept": [
+            "Omeprazole 20mg"
+        ],
+        "Patient": "Patient/131573235",
+        "Quantity": {
+            "value": 1,
+            "unit": "package"
+        },
+        "Days Supply": "30 days",
+        "Handed Over": "2026-03-30"
+    }
+]

@@ -1,0 +1,1002 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/omnicode-eob-001",
+        "ID": "omnicode-eob-001",
+        "Last Updated": "2026-03-03T19:16:55.052+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "claim",
+        "Created": "2025-09-15",
+        "Patient": {
+            "reference": "Patient/omnicode-patient-001",
+            "display": "Maria Ramirez"
+        },
+        "Insurer": {
+            "display": "Blue Cross Blue Shield of Idaho"
+        },
+        "Provider": {
+            "display": "Dr. Sarah Chen"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/omnicode-coverage-001"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Office Visit - Established Patient"
+        ],
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 250.0,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "eligible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 225.0,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "benefit"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 200.0,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "deductible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 25.0,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "code": "submitted"
+                    }
+                ]
+            },
+            "amount": {
+                "value": 250.0,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/omnicode-eob-002",
+        "ID": "omnicode-eob-002",
+        "Last Updated": "2026-03-05T01:37:21.533+00:00",
+        "Status": "active",
+        "Type": [
+            "Professional"
+        ],
+        "use": "claim",
+        "Created": "2025-11-03",
+        "Patient": {
+            "reference": "Patient/omnicode-patient-001",
+            "display": "Maria Ramirez"
+        },
+        "Insurer": {
+            "display": "Blue Cross Blue Shield of Idaho"
+        },
+        "Provider": {
+            "display": "Dr. James Park"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/omnicode-coverage-001"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Preventive Visit - 40-64 Years"
+        ],
+        "Adjudication": [
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "submitted"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 350.0,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "eligible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 350.0,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "benefit"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 350.0,
+                    "currency": "USD"
+                }
+            },
+            {
+                "category": {
+                    "coding": [
+                        {
+                            "code": "deductible"
+                        }
+                    ]
+                },
+                "amount": {
+                    "value": 0.0,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "code": "submitted"
+                    }
+                ]
+            },
+            "amount": {
+                "value": 350.0,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131371114",
+        "ID": "131371114",
+        "Last Updated": "2026-03-15T15:54:14.407+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "",
+        "Patient": {
+            "reference": "Patient/131371067"
+        },
+        "Insurer": {
+            "reference": "Organization/131371073"
+        },
+        "Provider": {
+            "reference": "Organization/131371071"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/131371081"
+                }
+            }
+        ],
+        "Product or Service": [],
+        "Adjudication": {},
+        "Total": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131371115",
+        "ID": "131371115",
+        "Last Updated": "2026-03-15T15:54:14.407+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "",
+        "Patient": {
+            "reference": "Patient/131371068"
+        },
+        "Insurer": {
+            "reference": "Organization/131371072"
+        },
+        "Provider": {
+            "reference": "Organization/131371071"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/131371082"
+                }
+            }
+        ],
+        "Product or Service": [],
+        "Adjudication": {},
+        "Total": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131371381",
+        "ID": "131371381",
+        "Last Updated": "2026-03-15T16:17:49.133+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "",
+        "Patient": {
+            "reference": "Patient/131371344"
+        },
+        "Insurer": {
+            "reference": "Organization/131371071"
+        },
+        "Provider": {
+            "reference": "Organization/131371071"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/131371348"
+                }
+            }
+        ],
+        "Product or Service": [],
+        "Adjudication": {},
+        "Total": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131371382",
+        "ID": "131371382",
+        "Last Updated": "2026-03-15T16:17:49.133+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "",
+        "Patient": {
+            "reference": "Patient/131371344"
+        },
+        "Insurer": {
+            "reference": "Organization/131371071"
+        },
+        "Provider": {
+            "reference": "Organization/131371071"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/131371349"
+                }
+            }
+        ],
+        "Product or Service": [],
+        "Adjudication": {},
+        "Total": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131371383",
+        "ID": "131371383",
+        "Last Updated": "2026-03-15T16:17:49.133+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "",
+        "Patient": {
+            "reference": "Patient/131371344"
+        },
+        "Insurer": {
+            "reference": "Organization/131371071"
+        },
+        "Provider": {
+            "reference": "Organization/131371071"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "Coverage/131371350"
+                }
+            }
+        ],
+        "Product or Service": [],
+        "Adjudication": {},
+        "Total": {}
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431294",
+        "ID": "131431294",
+        "Last Updated": "2026-03-21T15:11:28.398+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2009-08-19T06:01:51-04:00",
+        "Patient": {
+            "reference": "Patient/131431287"
+        },
+        "Insurer": {
+            "display": "Aetna"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431289"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Aetna"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Encounter for symptom",
+            "Inpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431313",
+        "ID": "131431313",
+        "Last Updated": "2026-03-21T15:11:28.398+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2011-08-07T05:58:51-04:00",
+        "Patient": {
+            "reference": "Patient/131431287"
+        },
+        "Insurer": {
+            "display": "Aetna"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431296"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Aetna"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "General examination of patient (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431341",
+        "ID": "131431341",
+        "Last Updated": "2026-03-21T15:11:28.398+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2014-08-10T05:58:51-04:00",
+        "Patient": {
+            "reference": "Patient/131431287"
+        },
+        "Insurer": {
+            "display": "Aetna"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431296"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Aetna"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "General examination of patient (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431356",
+        "ID": "131431356",
+        "Last Updated": "2026-03-21T15:11:28.398+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2017-08-13T05:43:51-04:00",
+        "Patient": {
+            "reference": "Patient/131431287"
+        },
+        "Insurer": {
+            "display": "Aetna"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431296"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Aetna"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "General examination of patient (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431382",
+        "ID": "131431382",
+        "Last Updated": "2026-03-21T15:12:00.615+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2019-05-26T08:26:20-04:00",
+        "Patient": {
+            "reference": "Patient/131431357"
+        },
+        "Insurer": {
+            "display": "Medicaid"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431359"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Medicaid"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Well child visit (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431392",
+        "ID": "131431392",
+        "Last Updated": "2026-03-21T15:12:00.615+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2019-06-30T08:11:20-04:00",
+        "Patient": {
+            "reference": "Patient/131431357"
+        },
+        "Insurer": {
+            "display": "Medicaid"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431359"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Medicaid"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Well child visit (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431407",
+        "ID": "131431407",
+        "Last Updated": "2026-03-21T15:12:00.615+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2019-09-01T08:26:20-04:00",
+        "Patient": {
+            "reference": "Patient/131431357"
+        },
+        "Insurer": {
+            "display": "Medicaid"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431359"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Medicaid"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Well child visit (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431433",
+        "ID": "131431433",
+        "Last Updated": "2026-03-21T15:12:48.560+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2019-07-23T00:49:26-04:00",
+        "Patient": {
+            "reference": "Patient/131431408"
+        },
+        "Insurer": {
+            "display": "Anthem"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431410"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Anthem"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Well child visit (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/131431547",
+        "ID": "131431547",
+        "Last Updated": "2026-03-21T15:14:35.345+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "2019-08-06T22:11:28-04:00",
+        "Patient": {
+            "reference": "Patient/131431512"
+        },
+        "Insurer": {
+            "display": "Cigna Health"
+        },
+        "Provider": {
+            "reference": "Practitioner/131431514"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "Cigna Health"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Well child visit (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 129.16,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/bdeea11a-c302-3ace-7f82-4ce312212a3a",
+        "ID": "bdeea11a-c302-3ace-7f82-4ce312212a3a",
+        "Last Updated": "2026-03-22T05:30:38.136+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "1978-06-13T12:05:50-04:00",
+        "Patient": {
+            "reference": "Patient/7cd8a8ad-746b-549e-e70d-0c0feb8ebc69"
+        },
+        "Insurer": {
+            "display": "NO_INSURANCE"
+        },
+        "Provider": {
+            "reference": "Practitioner/synthea-practitioner-822cff2844d8bf80"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "NO_INSURANCE"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Encounter for problem (procedure)",
+            "Inpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 85.55,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/8dae473e-ae44-fbc3-7fc9-b6c0323560ae",
+        "ID": "8dae473e-ae44-fbc3-7fc9-b6c0323560ae",
+        "Last Updated": "2026-03-22T05:30:44.135+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "1978-06-25T09:15:35-04:00",
+        "Patient": {
+            "reference": "Patient/7cd8a8ad-746b-549e-e70d-0c0feb8ebc69"
+        },
+        "Insurer": {
+            "display": "NO_INSURANCE"
+        },
+        "Provider": {
+            "reference": "Practitioner/synthea-practitioner-822cff2844d8bf80"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "NO_INSURANCE"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet",
+            "Inpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 114.4,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/f7f450f8-85b5-eb5c-d14d-26994f8bcf93",
+        "ID": "f7f450f8-85b5-eb5c-d14d-26994f8bcf93",
+        "Last Updated": "2026-03-22T05:30:48.134+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "1978-06-25T09:15:35-04:00",
+        "Patient": {
+            "reference": "Patient/7cd8a8ad-746b-549e-e70d-0c0feb8ebc69"
+        },
+        "Insurer": {
+            "display": "NO_INSURANCE"
+        },
+        "Provider": {
+            "reference": "Practitioner/synthea-practitioner-822cff2844d8bf80"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "NO_INSURANCE"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "Encounter for problem (procedure)",
+            "Inpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 516.95,
+                "currency": "USD"
+            }
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/ExplanationOfBenefit/18fce8cb-c2bf-e1ac-813b-d31a7ed91c6c",
+        "ID": "18fce8cb-c2bf-e1ac-813b-d31a7ed91c6c",
+        "Last Updated": "2026-03-22T05:30:54.135+00:00",
+        "Status": "active",
+        "Type": [],
+        "use": "claim",
+        "Created": "1995-05-20T02:40:45-04:00",
+        "Patient": {
+            "reference": "Patient/7cd8a8ad-746b-549e-e70d-0c0feb8ebc69"
+        },
+        "Insurer": {
+            "display": "NO_INSURANCE"
+        },
+        "Provider": {
+            "reference": "Practitioner/synthea-practitioner-be3ca5ff13c452a2"
+        },
+        "Outcome": "complete",
+        "Insurance": [
+            {
+                "focal": true,
+                "coverage": {
+                    "reference": "#coverage",
+                    "display": "NO_INSURANCE"
+                }
+            }
+        ],
+        "Product or Service": [
+            "Medical care",
+            "General examination of patient (procedure)",
+            "Off Campus-Outpatient Hospital"
+        ],
+        "Adjudication": {},
+        "Total": {
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                        "code": "submitted",
+                        "display": "Submitted Amount"
+                    }
+                ],
+                "text": "Submitted Amount"
+            },
+            "amount": {
+                "value": 704.2,
+                "currency": "USD"
+            }
+        }
+    }
+]

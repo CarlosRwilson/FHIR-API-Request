@@ -1,0 +1,527 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/relatedperson-1060",
+        "ID": "relatedperson-1060",
+        "Last Updated": "2026-02-11T12:02:32.358+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": "",
+        "Last Name": "",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/Patient-37",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131275830",
+        "ID": "131275830",
+        "Last Updated": "2026-02-17T15:46:42.665+00:00",
+        "Status": "",
+        "Identifier": "444222222",
+        "Name": [
+            "Sarah"
+        ],
+        "Last Name": "Connor",
+        "Gender": "female",
+        "Line": [
+            "2222 Home Street"
+        ],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "555-555-2003",
+                "use": "work"
+            }
+        ],
+        "Birthdate": "1958-05-31",
+        "Active": true,
+        "Patient": "Patient/131275829",
+        "Relationship": [
+            "Mother of John Connor "
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/related-jane-doe-udemy-001",
+        "ID": "related-jane-doe-udemy-001",
+        "Last Updated": "2026-02-18T16:14:00.837+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane",
+            "Elizabeth"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [
+            "123 Main Street",
+            "Apt 4B"
+        ],
+        "City": "Boston",
+        "District": "",
+        "Postal Code": "02101",
+        "Country": "US",
+        "State": "MA",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "555-987-6543",
+                "use": "mobile"
+            },
+            {
+                "system": "email",
+                "value": "jane.doe@example.com"
+            }
+        ],
+        "Birthdate": "1987-03-22",
+        "Active": true,
+        "Patient": "John Doe",
+        "Relationship": [
+            "Wife"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131282058",
+        "ID": "131282058",
+        "Last Updated": "2026-02-22T16:00:38.341+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Lan"
+        ],
+        "Last Name": "Nguyen",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131282057",
+        "Relationship": [
+            "Mother"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131282134",
+        "ID": "131282134",
+        "Last Updated": "2026-02-22T16:31:43.027+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Thu Ha"
+        ],
+        "Last Name": "Nguyen",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "+84-987-654-321"
+            }
+        ],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131282133",
+        "Relationship": [
+            "Mother"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131287439",
+        "ID": "131287439",
+        "Last Updated": "2026-02-25T14:08:44.567+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Silvia",
+            "Dimitrova"
+        ],
+        "Last Name": "Marinova",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131287854",
+        "ID": "131287854",
+        "Last Updated": "2026-02-25T20:24:15.069+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Huey",
+            "Hue"
+        ],
+        "Last Name": "XXTestDuck",
+        "Gender": "",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131288300",
+        "ID": "131288300",
+        "Last Updated": "2026-02-26T10:35:17.720+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131288299",
+        "Relationship": [
+            "spouse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131288316",
+        "ID": "131288316",
+        "Last Updated": "2026-02-26T11:41:48.295+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Morgan"
+        ],
+        "Last Name": "Smith",
+        "Gender": "male",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131288315",
+        "Relationship": [
+            "spouse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131311531",
+        "ID": "131311531",
+        "Last Updated": "2026-03-04T17:18:48.610+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "Patient/131311530",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131311552",
+        "ID": "131311552",
+        "Last Updated": "2026-03-04T17:34:28.492+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "Patient/131311551",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131311563",
+        "ID": "131311563",
+        "Last Updated": "2026-03-04T17:35:39.711+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "Patient/131311562",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131311567",
+        "ID": "131311567",
+        "Last Updated": "2026-03-04T17:36:29.413+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "Patient/131311566",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131311571",
+        "ID": "131311571",
+        "Last Updated": "2026-03-04T17:36:59.895+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "Patient/131311570",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131313617",
+        "ID": "131313617",
+        "Last Updated": "2026-03-05T09:41:34.939+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Sarah"
+        ],
+        "Last Name": "Johnson",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [
+            {
+                "system": "phone",
+                "value": "+1234567890",
+                "use": "mobile"
+            },
+            {
+                "system": "email",
+                "value": "sarah.johnson@example.com"
+            }
+        ],
+        "Birthdate": "1995-08-15",
+        "Active": "",
+        "Patient": "Patient/131311550",
+        "Relationship": [
+            "spouse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131313695",
+        "ID": "131313695",
+        "Last Updated": "2026-03-05T10:15:50.046+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": true,
+        "Patient": "Patient/131313694",
+        "Relationship": []
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131313705",
+        "ID": "131313705",
+        "Last Updated": "2026-03-05T11:06:05.889+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Jane"
+        ],
+        "Last Name": "Doe",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131313704",
+        "Relationship": [
+            "spouse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131313749",
+        "ID": "131313749",
+        "Last Updated": "2026-03-05T11:24:05.023+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "Casey"
+        ],
+        "Last Name": "Taylor",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131313748",
+        "Relationship": [
+            "spouse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/131313753",
+        "ID": "131313753",
+        "Last Updated": "2026-03-05T11:24:34.845+00:00",
+        "Status": "",
+        "Identifier": "",
+        "Name": [
+            "River"
+        ],
+        "Last Name": "Quincy",
+        "Gender": "female",
+        "Line": [],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "",
+        "Active": "",
+        "Patient": "Patient/131313752",
+        "Relationship": [
+            "spouse"
+        ]
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/RelatedPerson/CG",
+        "ID": "CG",
+        "Last Updated": "2026-03-11T17:57:46.234+00:00",
+        "Status": "",
+        "Identifier": "CG2022",
+        "Name": [
+            {
+                "use": "official",
+                "family": "THAPA"
+            }
+        ],
+        "Last Name": "THAPA",
+        "Gender": "female",
+        "Line": [
+            "TEST1",
+            "TEST1"
+        ],
+        "City": "",
+        "District": "",
+        "Postal Code": "",
+        "Country": "US",
+        "State": "",
+        "Telecom": [],
+        "Birthdate": "2000-01-01",
+        "Active": true,
+        "Patient": "Patient/CG2023",
+        "Relationship": [
+            "self"
+        ]
+    }
+]

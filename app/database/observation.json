@@ -1,0 +1,427 @@
+[
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/105794581",
+        "ID": "105794581",
+        "Last Updated": "2026-02-10T17:48:06.615+00:00",
+        "Status": "final",
+        "Category": [
+            "laboratory"
+        ],
+        "Code": [
+            "Cholesterol [Mass/volume] in Serum or Plasma"
+        ],
+        "Patient": "Patient/testmartin",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 182,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+        },
+        "Reference_range": {
+            "High": "200 mg/dL",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/105794582",
+        "ID": "105794582",
+        "Last Updated": "2026-02-10T17:48:06.615+00:00",
+        "Status": "final",
+        "Category": [
+            "laboratory"
+        ],
+        "Code": [
+            "Platelets [#/volume] in Blood"
+        ],
+        "Patient": "Patient/testmartin",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 250,
+            "unit": "10^3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+        },
+        "Reference_range": {
+            "High": "400 10*3/uL",
+            "Low": "150 10*3/uL"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/105794589",
+        "ID": "105794589",
+        "Last Updated": "2026-02-10T17:48:06.615+00:00",
+        "Status": "final",
+        "Category": [
+            "laboratory"
+        ],
+        "Code": [
+            "Hemoglobin [Mass/volume] in Blood"
+        ],
+        "Patient": "Patient/testmartin",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 14.5,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+        },
+        "Reference_range": {
+            "High": "17.0 g/dL",
+            "Low": "13.0 g/dL"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/105794590",
+        "ID": "105794590",
+        "Last Updated": "2026-02-10T17:48:06.615+00:00",
+        "Status": "final",
+        "Category": [
+            "laboratory"
+        ],
+        "Code": [
+            "Glucose [Mass/volume] in Blood"
+        ],
+        "Patient": "Patient/testmartin",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 99,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+        },
+        "Reference_range": {
+            "High": "110 mg/dL",
+            "Low": "70 mg/dL"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/105794591",
+        "ID": "105794591",
+        "Last Updated": "2026-02-10T17:48:06.615+00:00",
+        "Status": "final",
+        "Category": [
+            "laboratory"
+        ],
+        "Code": [
+            "Cholesterol [Mass/volume] in Serum or Plasma"
+        ],
+        "Patient": "Patient/testmartin",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 175,
+            "unit": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg/dL"
+        },
+        "Reference_range": {
+            "High": "200 mg/dL",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/105794592",
+        "ID": "105794592",
+        "Last Updated": "2026-02-10T17:48:06.615+00:00",
+        "Status": "final",
+        "Category": [
+            "laboratory"
+        ],
+        "Code": [
+            "Platelets [#/volume] in Blood"
+        ],
+        "Patient": "Patient/testmartin",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 260,
+            "unit": "10^3/uL",
+            "system": "http://unitsofmeasure.org",
+            "code": "10*3/uL"
+        },
+        "Reference_range": {
+            "High": "400 10*3/uL",
+            "Low": "150 10*3/uL"
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131265394",
+        "ID": "131265394",
+        "Last Updated": "2026-02-12T15:09:33.487+00:00",
+        "Status": "registered",
+        "Category": [],
+        "Code": [
+            "Current Chronological Age"
+        ],
+        "Patient": "",
+        "Effective Datetime": "",
+        "Value Quantity": {},
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131271413",
+        "ID": "131271413",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "9279-1"
+        ],
+        "Patient": "Patient/131271362",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 31,
+            "unit": "resp/min"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131271418",
+        "ID": "131271418",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "9279-1"
+        ],
+        "Patient": "Patient/131271362",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 25,
+            "unit": "resp/min"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131271423",
+        "ID": "131271423",
+        "Last Updated": "2026-02-13T21:09:34.224+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "9279-1"
+        ],
+        "Patient": "Patient/131271362",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 26,
+            "unit": "resp/min"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131272929",
+        "ID": "131272929",
+        "Last Updated": "2026-02-15T01:18:45.036+00:00",
+        "Status": "final",
+        "Category": [
+            "Vital Signs"
+        ],
+        "Code": [
+            "Body weight"
+        ],
+        "Patient": "Patient/id-5678923",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 0.1,
+            "unit": "kg",
+            "system": "http://unitsofmeasure.org",
+            "code": "kg"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131273080",
+        "ID": "131273080",
+        "Last Updated": "2026-02-15T12:37:18.179+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Glucose [Mole/Volume] in blood"
+        ],
+        "Patient": "Sonu Rathod",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 6.6,
+            "unit": "mmole/l",
+            "system": "http://unitsofmeasure.org",
+            "code": "mmol/l"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/obs-pat-sanya-6",
+        "ID": "obs-pat-sanya-6",
+        "Last Updated": "2026-02-17T07:37:48.417+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [],
+        "Patient": "Patient/pat-sanya",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 60,
+            "unit": "/10"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276414",
+        "ID": "131276414",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 70,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276415",
+        "ID": "131276415",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 72,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276416",
+        "ID": "131276416",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 74,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276417",
+        "ID": "131276417",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 76,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276418",
+        "ID": "131276418",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 78,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276419",
+        "ID": "131276419",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 80,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    },
+    {
+        "FullUrl": "https://hapi.fhir.org/baseR4/Observation/131276420",
+        "ID": "131276420",
+        "Last Updated": "2026-02-18T09:28:59.581+00:00",
+        "Status": "final",
+        "Category": [],
+        "Code": [
+            "Heart rate"
+        ],
+        "Patient": "Patient/131276413",
+        "Effective Datetime": "",
+        "Value Quantity": {
+            "value": 82,
+            "unit": "bpm"
+        },
+        "Reference_range": {
+            "High": "",
+            "Low": ""
+        }
+    }
+]
